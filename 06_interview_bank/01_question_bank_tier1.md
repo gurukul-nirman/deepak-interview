@@ -2,7 +2,7 @@
 
 > **How to use:** cover the answer, say yours aloud (≤ 45 seconds), then compare. Log misses in your error log. These are the highest-frequency questions for credit-risk monitoring/validation/MRM roles at 5–8 years (compiled from 2026 JDs, candidate reports and standard practice — frequency is my estimate **[Assumption]**). Deeper material sits in the linked files.
 
-**Sections:** A Credit fundamentals & statistics · B Logistic regression & scorecards · C Monitoring metrics · D IFRS 9 / CECL / RBI ECL · E Basel IRB · F Stress testing · G Validation process & findings · H Governance & regulation · I ML/AI · J Your projects (templates)
+**Sections:** A Credit fundamentals & statistics · B Logistic regression & scorecards · C Monitoring metrics · D IFRS 9 / CECL / RBI ECL · E Basel IRB · F Stress testing · G Validation process & findings · H Governance & regulation · I ML/AI · J Your projects (templates) · K AI governance · L Wholesale/commercial credit (P2)
 
 ---
 
@@ -434,3 +434,50 @@ They force intuitive directions (e.g., higher bureau score → lower risk), impr
 **J10. What diagnostics did you run on stress-test models?**
 **J11. What was your exact role vs the client's?**
 **J12. What would you do differently?**
+
+---
+
+## K. AI governance (see `04_governance_regulation/04_ai_governance.md`)
+
+**K1. What's the difference between AI governance and model risk management?**
+MRM checks that models are sound, validated and properly used; AI governance decides whether and how an AI use case may proceed at all and covers risks MRM doesn't fully own — privacy, security, IP, conduct, third-party AI and agentic actions. MRM is one control inside AI governance.
+
+**K2. How would you set up AI governance at a bank?**
+Board-approved AI policy and risk appetite → AI governance council with clear 3LoD roles → inventory of all AI use cases → risk tiering → impact assessments → lifecycle gates (testing, approval, deployment controls) → monitoring and incident management → board reporting; all proportionate to tier.
+
+**K3. How do you tier AI use cases?**
+Decision impact, autonomy, customer exposure, data sensitivity, opacity/novelty, scale and regulatory classification; tier drives approval level, testing depth, monitoring and review cadence.
+
+**K4. SR 26-2 excludes GenAI — so how is a GenAI chatbot governed?**
+Under the bank's broader AI risk framework (policy, tiering, testing, guardrails, monitoring, incidents) with MRM-style evidence standards; customer-facing GenAI defaults to a high tier.
+
+**K5. Under the EU AI Act, what must a bank do when it uses a vendor credit-scoring model?**
+As a deployer of a high-risk system: use it per instructions, ensure competent human oversight, check input data relevance, monitor and keep logs, inform affected people, complete a fundamental rights impact assessment before first use, and support the right to an explanation. Obligations apply from 2 Dec 2027.
+
+**K6. NIST AI RMF in one sentence?**
+A voluntary framework organised around Govern, Map, Measure and Manage, aiming for trustworthy AI (valid & reliable, safe, secure & resilient, accountable & transparent, explainable, privacy-enhanced, fair); the GenAI profile (AI 600-1) adds 12 GenAI-specific risks.
+
+**K7. ISO/IEC 42001 vs NIST AI RMF?**
+42001 is a certifiable AI management system (PDCA, 38 Annex A controls); NIST is a voluntary risk framework — they're complementary.
+
+**K8. What did RBI's FREE-AI report recommend?**
+Seven Sutras (trust, people first incl. human override, responsible innovation, fairness, accountability, understandable by design, safety & resilience) and 26 recommendations — e.g., board-approved AI policies, AI inventories, incident reporting and audits, disclosures, graded liability, an AI sandbox.
+
+**K9. How do you manage third-party AI risk?**
+Due diligence on data, evaluation and security; contract terms (audit rights, change notification, data use/retention); local testing; version pinning; monitoring; exit plan.
+
+**K10. How do you govern agentic AI?**
+Least-privilege tool permissions, sandboxing, spend/step limits, human approval for high-impact actions, complete action logs, and a kill switch.
+
+**K11. What would you report to the board on AI risk?**
+Inventory coverage and tiering, high-risk use cases with completed assessments and testing, incidents, fairness and drift breaches, overdue reviews, shadow-AI detections, and decisions needed.
+
+---
+
+## L. Wholesale / commercial credit (P2 — see `02_credit_risk/05_wholesale_commercial_credit_models.md`)
+
+**L1. Obligor rating vs facility rating?** Probability the borrower defaults vs loss severity of a specific facility (collateral, seniority).
+**L2. How do you validate a PD model with very few defaults?** Benchmark to external ratings, Pluto–Tasche bounds, expert review, conservative calibration; emphasise rank-ordering and override analysis.
+**L3. Why monitor rating overrides?** Frequent or one-directional overrides signal model weakness or judgment bias; test whether overrides improved accuracy.
+**L4. Key drivers in a mid-market PD scorecard?** Leverage, coverage, liquidity, profitability, size plus qualitative factors — justified by data.
+**L5. How do commercial EADs behave in stress?** Drawdowns on committed lines rise, so CCFs increase in downturns.
