@@ -1,0 +1,37 @@
+==========================================================================================
+1) STATIONARITY — ADF (H0: unit root) and KPSS (H0: stationary). Use BOTH; they can disagree.
+  nco      ADF p=0.270  KPSS p=0.100  → non-stationary/unclear
+  unemp    ADF p=0.060  KPSS p=0.100  → non-stationary/unclear
+  d_unemp  ADF p=0.000  KPSS p=0.100  → stationary
+  gdp_yoy  ADF p=0.224  KPSS p=0.100  → non-stationary/unclear
+
+2) MODEL — OLS with Newey–West (HAC) standard errors; check SIGNS against economic intuition
+               coef  HAC_se       p
+const        0.2446  0.0271  0.0000
+nco_lag1     0.7685  0.0273  0.0000
+d_unemp      0.5022  0.0241  0.0000
+gdp_yoy     -0.0404  0.0069  0.0000
+covid_dummy -0.1085  0.0353  0.0029
+  Adj R² = 0.977   expected signs: d_unemp (+), gdp_yoy (−), nco_lag1 (+, <1)
+
+3) RESIDUAL DIAGNOSTICS
+  Durbin–Watson = 2.01 (≈2 good; NB biased with a lagged dependent variable → prefer BG)
+  Breusch–Godfrey(4) p = 0.163 (H0: no autocorrelation)
+  Breusch–Pagan p = 0.165 (H0: homoskedastic)
+  Jarque–Bera p = 0.642 (H0: normal residuals)
+
+4) MULTICOLLINEARITY — VIF
+  nco_lag1     VIF = 2.39
+  d_unemp      VIF = 1.06
+  gdp_yoy      VIF = 2.31
+  covid_dummy  VIF = 1.14
+
+5) OUT-OF-TIME BACKTEST — fit to 2005–2019, dynamic forecast 2022–2025 (skip COVID years)
+  MAPE = 10.9%   cumulative error = +8.4% (negative = model under-predicts losses)
+
+6) SENSITIVITY — +1pp shock to the quarterly unemployment change, 1 quarter
+  Immediate NCO impact = +0.590 pp; long-run multiplier = +2.162 pp
+
+7) STABILITY — coefficient on d_unemp across rolling 40-quarter windows
+  0.61  0.60  0.57  0.58  0.56   ← sign flips or big swings = finding
+==========================================================================================

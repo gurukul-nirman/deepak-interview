@@ -1,0 +1,5 @@
+# generated practice database (rebuild with: python 05_coding/code/sql_practice.py)
+*.db
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
