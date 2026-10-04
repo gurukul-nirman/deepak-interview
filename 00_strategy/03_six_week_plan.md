@@ -78,8 +78,8 @@
 ### Week 5 — Grilling drills + behavioral + negotiation (Diwali ≈ Sun 8 Nov: front-load)
 | Day | Block | Do | Output |
 |---|---|---|---|
-| Mon | 2 h | `06_interview_bank/02_question_bank_tier2_grilling.md` A–D | Error log +10 |
-| Tue | 2 h | Tier-2 E–H | Error log +10 |
+| Mon | 2 h | `06_interview_bank/02_question_bank_tier2_grilling.md` ladders A–F (have someone read them to you) | Error log +10 |
+| Tue | 2 h | Tier-2 ladders G–L | Error log +10 |
 | Wed | 2 h | Case studies 11–15 | Written answers (bullet form) |
 | Thu | 2 h | `06_interview_bank/04_behavioral_hr_negotiation.md`: 10 STAR-L stories + "Why validation / why leave / why us" | Stories doc |
 | Fri | 2 h | Negotiation script + offer comparison sheet; company dossiers for live processes | Script + dossiers |
