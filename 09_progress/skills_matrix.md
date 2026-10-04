@@ -32,6 +32,12 @@
 | C6 | Code review | P2 | | | | | 0 | | ⚪ | Coding mock |
 | C7 | Time-series diagnostics | P2 | | | | | 0 | | ⚪ | Coding mock |
 
+## Portfolio projects (`11_projects/`)
+| Project | Stage (not started · data/run · TODOs · report draft · self-scored · reviewed · published) | Self-score | Review score (`REVIEW PROJECT`) | Last updated | Next action |
+|---|---|---|---|---|---|
+| P1 PD-model validation report | not started | | | | Week 2: run pipeline, read MDD |
+| P2 AI-governance risk assessment | not started | | | | Week 4: read case pack |
+
 ## Full-process record
 | Process | Persona | Furthest round | Outcome | Overall score | Date |
 |---|---|---|---|---|---|

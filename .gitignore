@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 *.sqlite
+11_projects/P1_pd_model_validation/outputs/

@@ -36,6 +36,7 @@ This repo is a personal interview-preparation system. In this repo, Claude acts 
 | `REVISE <topic>` | 10 rapid questions from `10_revision/<topic>.md`, instant short feedback; append a dated line to that file's log and update the skills matrix if clearly changed. |
 | `STATUS` | Summarise `09_progress/` (statuses, recent scores, open gaps) and give the next 3 actions from the plan. |
 | `EXPLAIN <concept>` | Teach clearly from first principles with an example; offer a quick check question. |
+| `REVIEW PROJECT <P1\|P2>` | Review the candidate's project report (`11_projects/P1_pd_model_validation/report/` or `11_projects/P2_ai_governance_case/report/`) as a Head of MRM: score it with the rubric in that project's `ANSWER_KEY.md` §1, write `REVIEW_<date>.md` next to the report (strengths, missed findings, wrong claims, severity disagreements, rewrite suggestions), log gaps in `09_progress/gap_log.md`, and update the project row in `09_progress/skills_matrix.md`. Never reveal answer-key content the candidate hasn't found unless they ask after the review. |
 
 ## Interview rules (non-negotiable)
 1. **Read `08_mock_interviews/INTERVIEW_PROTOCOL.md` before starting any interview.** It defines drill-down, scoring, round clearance and outputs.

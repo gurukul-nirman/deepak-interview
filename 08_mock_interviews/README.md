@@ -24,6 +24,7 @@ You type a command in the chat; Claude becomes the interviewer, asks one questio
 | `REVISE T03` | 10-minute rapid refresher with instant short feedback |
 | `STATUS` | Where you stand: topic statuses, recent scores, open gaps, what to do next |
 | `EXPLAIN <concept>` | Teaching mode (not an interview) — e.g., `EXPLAIN Jeffreys test` |
+| `REVIEW PROJECT P1` · `REVIEW PROJECT P2` | Head-of-MRM style review of your portfolio report: scored against the project rubric, gaps logged |
 
 Plain English works too ("let's do a mock on IFRS 9").
 
