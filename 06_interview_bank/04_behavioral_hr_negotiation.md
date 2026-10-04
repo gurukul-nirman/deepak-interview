@@ -42,7 +42,7 @@
 | Current CTC | State it exactly as per payslips/offer letter — BGV verifies. Separate fixed and variable if asked. |
 | Expected CTC | "For a Lead/VP-band role with this scope, I'm targeting **₹40–45L fixed**. I'm open on structure if the level and role are right." *(Anchor high-but-defensible; the band data in `00_strategy/01_market_reality_and_targets.md` supports it.)* |
 | "That's a big jump from 26.5" | "It reflects the level, not a hike on my current role — I'm moving from a vendor-side role to an in-house second-line role, and I'm benchmarking against the band for this grade." |
-| Notice period | State it; mention buy-out/early-release possibility. |
+| Notice period | "Three months, and my contract doesn't allow a buy-out. I'll plan a clean handover and can start earlier if my employer agrees to release me." Say it in the first call — never hide it. |
 | Other offers | Truthful: "I'm in late stages with two banks." (Only if true.) |
 
 ---
@@ -54,7 +54,7 @@
 2. **Never accept on the call.** "Thank you — I'm excited about this. Could you share the written breakup? I'll come back within 48 hours."
 3. **Negotiate fixed before variable.** Variable payouts vary; your floor is fixed.
 4. **Use competing offers truthfully.** Specific numbers, specific deadlines.
-5. **Joining bonus** to cover lost variable/notice buy-out — easier for HR to approve than fixed.
+5. **Joining bonus** to cover the variable you forfeit by leaving mid-cycle — easier for HR to approve than fixed. (Your notice can't be bought out, so don't trade money for an earlier start.)
 6. **Get everything in writing:** fixed, target variable %, historical payout %, joining/retention bonus (clawback terms), RSUs/deferred comp, notice period, level/title, location, WFH.
 7. **BGV:** no inflation of current pay or titles — offers are revoked over this.
 

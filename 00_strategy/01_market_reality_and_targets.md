@@ -10,8 +10,8 @@
 |---|---|---|
 | 1 | **₹40L fixed at ~5–5.5 yrs is a top-decile outcome** for credit-risk validation in India. 6figr's model-validation sample: median ₹23L, avg ₹27.9L, **top 10% > ₹40.4L CTC** (n=45, small sample). | Certain (data) / Likely (representativeness) |
 | 2 | Typical **AVP-level risk pay at big GCCs is ₹29–40L CTC** (Barclays, DB, HSBC, Citi). 40 fixed = ~44–48 CTC, which sits in **VP-equivalent bands**. | Certain (AmbitionBox bands) |
-| 3 | 40 fixed is **realistic only at specific titles**: AmEx Sr Manager (Band 40), Wells Fargo Lead QAS, top-of-band Citi/GS/JPM, VP roles at Barclays/DB/Citi/JPM (stretch at 5 yrs), strong fintech lenders, or abroad (UAE/Saudi/Singapore/UK clear it easily). | Likely |
-| 4 | Your three levers: **(a) level** (interview at VP bar, argue scope not years), **(b) competing offers** (2–3 parallel processes), **(c) geography** (UAE is the fastest abroad route). | Likely |
+| 3 | 40 fixed is **realistic only at specific titles**: AmEx Sr Manager (Band 40), Wells Fargo Lead QAS, top-of-band Citi/GS/JPM, VP roles at Barclays/DB/Citi/JPM (stretch at 5 yrs), strong fintech lenders, or abroad (Europe/Singapore — your preference — clear it easily). | Likely |
+| 4 | Your three levers: **(a) level** (interview at VP bar, argue scope not years), **(b) competing offers** (2–3 parallel processes), **(c) geography** (Europe/Singapore preferred; UAE is the fastest visa route if you ever want it). | Likely |
 | 5 | **SR 11-7 was replaced by SR 26-2 on 17 Apr 2026.** Interviewers in late 2026 will test whether you know this. Most candidates won't. This is a cheap differentiator. | Certain |
 | 6 | Regulatory tailwinds create demand: RBI ECL (final 27 Apr 2026, effective 1 Apr 2027), RBI draft MRM guidance (24 Jun 2026), OSFI E-23 (effective 1 May 2027), EU AI Act high-risk credit scoring (deferred to 2 Dec 2027), AI/ML validation teams (Citi GenAI validator roles in Mumbai/Bengaluru). | Certain |
 
@@ -64,7 +64,7 @@
 HSBC (MRM Bengaluru/Hyderabad/Gurugram), Barclays (Pune/Noida/Chennai), Deutsche Bank (Mumbai/Pune/Bengaluru), Société Générale GSC (Bengaluru — "Lead Expert Model Validation": IRB/IFRS 9, SAS/R), BNP Paribas ISPL, NatWest, Lloyds Tech Centre, Fidelity, BNY, Northern Trust, State Street, Truist, Synchrony (VP), Moody's, CRISIL, Big 4 FRM (manager).
 
 ### Tier C — abroad (see §5)
-UAE and Saudi first (fastest visas, tax-free), Singapore and UK opportunistic.
+**Your preference (Oct 2026): Europe and Singapore over UAE — abroad pack to be built later.** Europe: UK (London/Glasgow/Edinburgh), Ireland (Dublin), Netherlands (Amsterdam/Utrecht), Germany (Frankfurt), Poland (Kraków/Wrocław/Warsaw risk hubs — EU entry point, lower pay). Singapore: DBS, OCBC, UOB, StanChart, Citi, HSBC. UAE/Saudi remain the fastest visa routes if priorities change.
 
 **Rule:** run **≥ 3 Tier-A and ≥ 3 Tier-B processes in parallel**. Tier-B offers are your negotiation anchors for Tier-A. **[Likely]**
 
@@ -94,14 +94,15 @@ UAE and Saudi first (fastest visas, tax-free), Singapore and UK opportunistic.
 | **Canada** | Not pulled | PR-led (Express Entry) — slow | OSFI E-23 (effective 1 May 2027) is driving MRM hiring at the Big 6 **[Certain on E-23; Likely on hiring]** |
 | **US** | Highest pay | H-1B lottery + Sept-2025 fee proclamation on new petitions **[Likely — verify]** | Not viable in this timeline |
 
-**Recommendation [Assumption]:** India Tier A + UAE in parallel from Week 1. Internal mobility after 18–24 months at a global bank (Barclays/HSBC/Citi/JPM) is the cheapest route to UK/Singapore later.
+**Recommendation [Assumption]:** India Tier A now; add Europe/Singapore applications once the abroad pack is built (on request). A realistic, cheaper route to Europe/Singapore is **internal mobility after 18–24 months at a global bank** with hubs there (Barclays, HSBC, Citi, JPM, DB, UBS, StanChart, ING).
 
 ---
 
 ## 6. Timing — the calendar matters more than people think
 
 - Today: **Sun 4 Oct 2026**. Diwali ≈ **8 Nov 2026**; mid-Dec → early-Jan hiring slows; Jan–Mar is typically strong. **[Likely]**
-- KPO notice periods are usually 60–90 days. **[Likely — check your contract and buy-out policy]**
+- **Your notice period: 3 months, no buy-out (confirmed).** Offers in Nov–Dec 2026 → joining **Feb–Mar 2027**. Most bank GCCs accept 90 days at AVP/VP level, but some recruiters filter for ≤ 60 days and long notice periods raise offer-revocation and counter-offer risk. **[Likely]**
+- Implications: state it upfront in every HR screen; prioritise employers that hire at 90 days; keep 2+ processes alive until you join; resigning *before* an offer is a known tactic to show a shorter remaining notice, but it carries income risk — not recommended unless you have a financial buffer. **[Assumption]**
 - **Do not wait to "finish prep" before applying.** Interviews usually start 2–4 weeks after applying. Apply from Week 1; you'll interview in Weeks 3–6 when prep is ~70% done — that's by design.
 
 ---
@@ -112,11 +113,13 @@ UAE and Saudi first (fastest visas, tax-free), Singapore and UK opportunistic.
 |---|---|---|---|
 | **KPO → bank level mapping** | Banks may slot a vendor-side "Manager" at Associate/AVP | Sell scope (models owned, decisions influenced, regulators/auditors faced), not title | `04_positioning_resume_and_stories.md` |
 | **Monitoring ≠ validation** | VP-bar interviews test independent challenge of conceptual soundness | Validation playbook + findings practice + case studies | `03_monitoring_validation/` |
-| **Master's-degree screens** (WF, JPM, Citi quant titles list it as required) | Possible auto-rejection | Tell me your degree; we'll target titles accordingly; FRM/CQF as partial offset | Open question |
+| **Degree screens** — you hold a **B.Tech (EEE)**; some quant titles list a Master's (WF Lead QAS, JPM MRGR, some Citi roles) | Possible auto-rejection on a few titles | B.Tech EEE counts as a quantitative engineering degree; many JDs say "or equivalent experience" — apply anyway, push referrals, lead with the portfolio validation report (`11_projects/`); JPM MRGR quant roles are the hardest screen. FRM Part I is optional (not needed for this 6-week window). | **Likely** |
+| **3-month non-buyout notice** | Some recruiters prefer ≤ 60 days; offer-revocation/counter-offer risk | Say it upfront; target 90-day-friendly employers; keep parallel processes; negotiate joining bonus instead of early release | Certain (your contract) |
 | **Python depth** | Coding rounds at GS/JPM/WF/AmEx/fintechs | Tested toolkit + 6 timed drills | `05_coding/` |
 | **Over-claiming** | Indian BGV checks payslips/relieving letters; interviewers drill into claimed projects | Only claim what you can defend for 15 minutes of follow-ups | Story templates |
 | **Stale regulation** | Quoting SR 11-7 as current = signals you're out of date | SR 26-2 module | `04_governance_regulation/01_mrm_sr11-7_to_sr26-2.md` |
 | **SBSS change** | SBA stopped SBSS screening for 7(a) small loans from **1 Mar 2026** — your SBSS model story must show awareness | Talking point + case study | Stories + case bank |
+| **SmarterPay** | Not started yet (KT expected this month) — claiming it would fail a deep-dive | Don't list it as hands-on experience until you've worked on it; mention only as "onboarding to SmarterPay models" if asked | Certain |
 
 ---
 

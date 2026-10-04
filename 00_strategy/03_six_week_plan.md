@@ -40,7 +40,7 @@
 | Thu | 2 h | `01_foundations/02_logistic_regression_and_scorecards.md` §1–5 (why LR, odds/log-odds, MLE, assumptions, fit statistics) + §8 (WoE/IV) | Explain WoE/IV aloud in 90 sec (record) |
 | Fri | 2 h | Scorecards §6–7 and §9–13 (types, 13-step build, scaling/PDO, reject inference, calibration, segmentation, traps) | Whiteboard the end-to-end scorecard build |
 | Sat | 2.5 h | `05_coding/01_python_for_validation.md` Part A (Python + pandas basics); run `validation_toolkit.py` demo once | Notebook with your first decile table |
-| Sun | 2.5 h | `00_strategy/04_positioning_resume_and_stories.md`: fill **5 project sheets** (SBSS BCC/non-BCC, SmarterPay, IFRS 9, IRB, stress testing); update resume + LinkedIn; **apply to 10** | 5 sheets + resume v2 + 10 applications |
+| Sun | 2.5 h | `00_strategy/04_positioning_resume_and_stories.md`: fill **4 project sheets** (SBSS BCC/non-BCC, IFRS 9, IRB, stress testing — SmarterPay after its KT); update resume + LinkedIn; **apply to 10** | 5 sheets + resume v2 + 10 applications |
 
 ### Week 2 — Monitoring + validation core + Python metrics
 | Day | Block | Do | Output |

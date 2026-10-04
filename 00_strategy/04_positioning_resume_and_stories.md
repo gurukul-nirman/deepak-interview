@@ -103,7 +103,7 @@ What you'd improve / do differently: _________________________________
 
 ### 6.1 FICO SBSS scorecards — Business Credit Card (BCC) and non-BCC
 
-*Assumption: BCC = business credit card; non-BCC = business loans/lines. Correct me if different.*
+*Confirmed: BCC = business credit card; non-BCC = other small-business products (loans/lines).*
 
 **Facts you must know cold [Certain]:**
 - **SBSS = FICO® Small Business Scoring Service** — a **vendor** score for small-business credit, range **0–300** (higher = lower risk).
@@ -127,8 +127,9 @@ What you'd improve / do differently: _________________________________
 14. Any overlays or policy rules layered on the score?
 15. What would you change in the monitoring design?
 
-### 6.2 SmarterPay models
-*I don't know what "SmarterPay" refers to in your context — describe it (purpose, target, method, use) and I'll build the grilling list. Until then, fill the universal sheet and prepare: purpose → target definition → method → monitoring metrics → a breach story → limitations.*
+### 6.2 SmarterPay models — **not yet started (KT expected Oct 2026)**
+- **Do not claim it** in your resume or interviews until you've actually worked on it. If asked about current work: *"I'm being onboarded to the SmarterPay models; knowledge transfer starts this month."*
+- **After the KT:** capture purpose, target definition, method, data, monitoring metrics, thresholds and limitations in the universal sheet (§6.0); then ask me for `START TOPIC T12 SmarterPay` to build and test the story.
 
 ### 6.3 IFRS 9 / CECL models
 **Grilling questions:**

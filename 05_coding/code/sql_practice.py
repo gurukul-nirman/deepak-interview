@@ -21,7 +21,7 @@ import numpy as np
 import pandas as pd
 
 DB = Path(__file__).with_name("credit_practice.db")
-rng = np.random.default_rng(2026)
+rng = np.random.default_rng(2026)  # replaced inside build(seed)
 
 
 def month_add(m: str, k: int) -> str:
@@ -30,7 +30,11 @@ def month_add(m: str, k: int) -> str:
     return f"{t // 12:04d}-{t % 12 + 1:02d}-01"
 
 
-def build() -> sqlite3.Connection:
+def build(seed: int = 2026, path: Path | None = None) -> sqlite3.Connection:
+    """Build the practice database (seed changes the data; path defaults to credit_practice.db)."""
+    global rng
+    rng = np.random.default_rng(seed)
+    path = Path(path) if path is not None else DB
     n = 3000
     open_months = [month_add("2023-01-01", int(k)) for k in rng.integers(0, 24, n)]
     product = rng.choice(["BCC", "LOAN"], n, p=[0.6, 0.4])
@@ -86,9 +90,9 @@ def build() -> sqlite3.Connection:
                       "score": np.clip(rng.normal(540, 45, len(cur_ids)), 300, 850).round()}),
     ])
 
-    if DB.exists():
-        DB.unlink()
-    con = sqlite3.connect(DB)
+    if path.exists():
+        path.unlink()
+    con = sqlite3.connect(path)
     accounts.to_sql("accounts", con, index=False)
     perf.to_sql("monthly_perf", con, index=False)
     scores.to_sql("scores", con, index=False)
