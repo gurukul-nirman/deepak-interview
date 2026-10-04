@@ -1,12 +1,15 @@
 # 06.5 · Mock Interview Scripts & Scoring Rubric
 
-> Three mocks are scheduled in the plan (Weeks 3, 4, 5). Run them **out loud, timed, recorded**. The fastest way: ask me in chat — I'll play the interviewer, follow up like a real panel, and score you.
+> **Superseded for running mocks.** The structured mock system in `08_mock_interviews/` replaces these prompts: it adds
+> adaptive drill-down, recorded transcripts, scorecards, gap logs and round gating. Use its commands (`START TOPIC`,
+> `START CODING`, `START PROCESS`; see the root `README.md`). This file remains useful as a **reference** for round
+> formats and the answer rubric.
 
-**Prompts to use with me:**
-- `Mock 1: Technical 2 for Wells Fargo Lead QAS. Grill me on my SBSS and IFRS 9 projects, then one case. 60 minutes.`
-- `Mock 2: Hiring manager at Barclays model validation (IRB/IFRS 9). Include a pushback scenario and SR 26-2.`
-- `Mock 3: Full loop for AmEx Sr Manager credit risk modeling — screen, SQL/Python questions, case, HM.`
-- `Rapid fire: 20 Tier-1 questions on monitoring metrics, one at a time, score each.`
+**Mapping to the new commands:**
+- Old "Mock 1" (Technical 2: projects + domain) → `START TOPIC T12` (projects) or the R3 round of `START PROCESS WF-LQAS`.
+- Old "Mock 2" (hiring manager + case) → R5 of any `START PROCESS`.
+- Old "Mock 3" (full loop) → `START PROCESS AMEX-SM` (or any persona), round by round.
+- Rapid fire → `REVISE T03` (or any topic code).
 
 ---
 
