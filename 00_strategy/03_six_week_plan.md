@@ -37,18 +37,18 @@
 | Mon | 2 h | Read `README.md`, `01_market_reality_and_targets.md`, `02_interview_process_map.md`. Install Anaconda or use Google Colab. | Target list (10 Tier A, 10 Tier B) in a sheet |
 | Tue | 2 h | `01_foundations/01_statistics_from_scratch.md` §1–5 (distributions, sampling, hypothesis tests, p-values, CIs) | 10 flash answers in error log |
 | Wed | 2 h | Stats §6–10 (tests used in validation, regression basics, MLE, time-series diagnostics) | Table: test → what it checks → when used |
-| Thu | 2 h | `01_foundations/02_logistic_regression_and_scorecards.md` §1–5 (LR, odds, MLE, assumptions, WoE/IV) | Explain WoE/IV aloud in 90 sec (record) |
-| Fri | 2 h | Scorecards §6–11 (sample design, binning, scaling/PDO, reject inference, segmentation, calibration) | Whiteboard the end-to-end scorecard build |
+| Thu | 2 h | `01_foundations/02_logistic_regression_and_scorecards.md` §1–5 (why LR, odds/log-odds, MLE, assumptions, fit statistics) + §8 (WoE/IV) | Explain WoE/IV aloud in 90 sec (record) |
+| Fri | 2 h | Scorecards §6–7 and §9–13 (types, 13-step build, scaling/PDO, reject inference, calibration, segmentation, traps) | Whiteboard the end-to-end scorecard build |
 | Sat | 2.5 h | `05_coding/01_python_for_validation.md` Part A (Python + pandas basics); run `validation_toolkit.py` demo once | Notebook with your first decile table |
 | Sun | 2.5 h | `00_strategy/04_positioning_resume_and_stories.md`: fill **5 project sheets** (SBSS BCC/non-BCC, SmarterPay, IFRS 9, IRB, stress testing); update resume + LinkedIn; **apply to 10** | 5 sheets + resume v2 + 10 applications |
 
 ### Week 2 — Monitoring + validation core + Python metrics
 | Day | Block | Do | Output |
 |---|---|---|---|
-| Mon | 2 h | `03_monitoring_validation/01_performance_monitoring_metrics.md` §1–4 (KS, Gini/AUC/AR, CAP/ROC, rank ordering) | Compute KS & Gini **by hand** on the worked example |
-| Tue | 2 h | Metrics §5–8 (PSI/CSI, calibration tests, thresholds/RAG, diagnosis matrix) | "PSI 0.27 — what do you do?" answer recorded |
-| Wed | 2 h | `02_independent_validation_playbook.md` §1–5 (lifecycle, tiering, scoping, data, conceptual soundness, replication) | Validation plan for *your* SBSS model (1 page) |
-| Thu | 2 h | Playbook §6–10 (benchmarking, sensitivity, outcomes, implementation, monitoring review, outcome ratings) + findings section | 3 findings written in condition/criteria/cause/effect/recommendation format |
+| Mon | 2 h | `03_monitoring_validation/01_performance_monitoring_metrics.md` §0–2 (four questions; KS, Gini/AUC/CAP, rank-ordering; calibration tests) | Compute KS, Gini and the binomial example **by hand** |
+| Tue | 2 h | Metrics §3–7 (PSI/CSI, usage, RAG thresholds, diagnosis matrix, root-cause playbook) | "PSI 0.27 — what do you do?" answer recorded |
+| Wed | 2 h | `03_monitoring_validation/02_independent_validation_playbook.md` §1–4 + §5 workstreams A–E (types, tiering, process, use, data, conceptual soundness, replication, outcomes) | Validation plan for *your* SBSS model (1 page) |
+| Thu | 2 h | Playbook §5 workstreams F–J + §6–8 (benchmarking, sensitivity, implementation, monitoring plan, use; findings; outcomes; effective challenge & pushback) | 3 findings written in condition/criteria/cause/effect/recommendation format |
 | Fri | 2 h | `06_interview_bank/01_question_bank_tier1.md` sections A–C (stats, LR/scorecards, metrics) — answer aloud, then check | Error log +15 entries |
 | Sat | 2.5 h | `05_coding` Part B: implement KS, Gini, PSI, WoE/IV **from scratch** (don't copy); compare to toolkit | Your own `my_metrics.py` |
 | Sun | 2.5 h | `05_coding/02_sql_for_credit_risk.md` drills 1–8 (joins, windows, vintage, roll rates); **apply to 10**; reach out to 5 people for referrals | SQL solutions + 10 apps + 5 referral asks |
@@ -60,7 +60,7 @@
 | Tue | 2 h | `02_credit_risk/02_ifrs9_cecl_rbi_ecl.md` | Whiteboard: ECL = Σ PD·LGD·EAD·DF across scenarios; staging rules |
 | Wed | 2 h | `02_credit_risk/03_basel_irb.md` | Explain PIT vs TTC, LRADR, MoC, downturn LGD in 3 min |
 | Thu | 2 h | `02_credit_risk/04_stress_testing_ccar.md` | Diagnostics checklist for a macro-regression; 2026 Fed changes |
-| Fri | 2 h | Tier-1 bank sections D–F (IFRS 9, IRB, stress testing) + case studies 1–5 | Error log +15 |
+| Fri | 2 h | Tier-1 bank sections D–F (IFRS 9, IRB, stress testing) + case studies 1–5 + metrics §8 and playbook §9–11 (model-type checklists, report template, vendor models) | Error log +15 |
 | Sat | 2.5 h | `05_coding/03_sas_essentials.md` (PROC LOGISTIC, NPAR1WAY, RANK, SQL, macros); rewrite your monitoring report logic in SAS pseudocode | 1 SAS macro for PSI |
 | Sun | 2.5 h | **Mock 1** (Technical 2: your projects + one domain) with me or a friend — 60 min; review; **apply to 10** | Mock scorecard + fixes |
 
@@ -80,7 +80,7 @@
 |---|---|---|---|
 | Mon | 2 h | `06_interview_bank/02_question_bank_tier2_grilling.md` ladders A–F (have someone read them to you) | Error log +10 |
 | Tue | 2 h | Tier-2 ladders G–L | Error log +10 |
-| Wed | 2 h | Case studies 11–15 | Written answers (bullet form) |
+| Wed | 2 h | Case studies 11–16 | Written answers (bullet form) |
 | Thu | 2 h | `06_interview_bank/04_behavioral_hr_negotiation.md`: 10 STAR-L stories + "Why validation / why leave / why us" | Stories doc |
 | Fri | 2 h | Negotiation script + offer comparison sheet; company dossiers for live processes | Script + dossiers |
 | Sat | 4.5 h | **Mock 3 — full loop** (screen + tech 1 + tech 2 + HM) back-to-back; timed coding set 3 | Final gap list |

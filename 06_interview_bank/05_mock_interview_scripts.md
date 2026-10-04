@@ -25,7 +25,7 @@
 | 0–10 | Why validation / why us / why leave | Crisp, positive, specific |
 | 10–25 | "Validate our new behavioural PD model — plan your first 4 weeks" | Scoping by tier, document request, workstreams, timeline |
 | 25–40 | **Pushback scenario** (Case 15) | Independence + solution path + escalation process |
-| 40–50 | "What changed with SR 26-2; what would you change in our framework?" | 2-minute answer (`04_governance_regulation/01_...` §4) |
+| 40–50 | "What changed with SR 26-2; what would you change in our framework?" | 2-minute answer (`04_governance_regulation/01_mrm_sr11-7_to_sr26-2.md` §4) |
 | 50–60 | Behavioural: conflict, mistake, mentoring | STAR-L with numbers |
 
 ## Mock 3 — Full loop, ~3.5 hours (Week 5 Saturday)

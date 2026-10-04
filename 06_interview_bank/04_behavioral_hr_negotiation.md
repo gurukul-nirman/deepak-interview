@@ -40,7 +40,7 @@
 | Question | Your line |
 |---|---|
 | Current CTC | State it exactly as per payslips/offer letter — BGV verifies. Separate fixed and variable if asked. |
-| Expected CTC | "For a Lead/VP-band role with this scope, I'm targeting **₹40–45L fixed**. I'm open on structure if the level and role are right." *(Anchor high-but-defensible; the band data in `00_strategy/01_...` supports it.)* |
+| Expected CTC | "For a Lead/VP-band role with this scope, I'm targeting **₹40–45L fixed**. I'm open on structure if the level and role are right." *(Anchor high-but-defensible; the band data in `00_strategy/01_market_reality_and_targets.md` supports it.)* |
 | "That's a big jump from 26.5" | "It reflects the level, not a hike on my current role — I'm moving from a vendor-side role to an in-house second-line role, and I'm benchmarking against the band for this grade." |
 | Notice period | State it; mention buy-out/early-release possibility. |
 | Other offers | Truthful: "I'm in late stages with two banks." (Only if true.) |

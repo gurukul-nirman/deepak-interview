@@ -45,7 +45,7 @@
 
 ## §4. Imbalanced data & calibration
 - Use AUC/Gini/KS/PR-AUC, not accuracy (97% accuracy is trivial at a 3% bad rate).
-- Oversampling (SMOTE) or class weights change the base rate → **probabilities are no longer calibrated**. Fix with **Platt scaling** (logistic on the score) or **isotonic regression** on a clean holdout, then test calibration as in `03_monitoring_validation/01_...` §2.
+- Oversampling (SMOTE) or class weights change the base rate → **probabilities are no longer calibrated**. Fix with **Platt scaling** (logistic on the score) or **isotonic regression** on a clean holdout, then test calibration as in `03_monitoring_validation/01_performance_monitoring_metrics.md` §2.
 
 ---
 
@@ -91,6 +91,11 @@
 > "It depends on materiality, use and evidence. For capital, provisioning or adverse-action-heavy decisions I default to a WoE logistic scorecard — transparent, stable, easy to monitor. I'd bring in gradient boosting where there's real non-linearity or rich data — fraud, early-warning, alternative data — and only if the uplift is statistically significant out-of-time and economically meaningful. If we do use it, I'd constrain it — shallow trees, monotonic constraints — calibrate it, explain it with SHAP-based reason codes, test fairness, and monitor drift. A common middle path is using the GBM as a challenger or to discover interactions that we then engineer into the scorecard."
 
 ---
+
+## §8b. Fraud models (Wells Fargo's Lead QAS JD asks for fraud ML validation exposure)
+- **Different from credit PD:** extreme imbalance (often ≪ 1% fraud), **label delay** (chargebacks/confirmations arrive weeks later), **adversarial drift** (fraudsters adapt), real-time latency constraints, and decisions at **alert thresholds** set by investigator capacity.
+- **Metrics:** detection rate (recall) and **value detection rate** (% of fraud $ caught), **false-positive ratio** (false alerts per true fraud), alert rate, precision at the operating threshold, PR-AUC (more informative than ROC-AUC under extreme imbalance).
+- **Validation focus:** label quality and delay handling, threshold setting vs capacity, drift monitoring (weekly), challenger rules vs model, explainability for investigators, feedback-loop bias (only alerted cases get investigated → labels are selective), and — under the EU AI Act — fraud detection is **excluded** from the credit-scoring high-risk category. **[Certain on the AI Act carve-out; Likely on practice]**
 
 ## §9. India-specific context worth knowing (for Indian lenders/fintech interviews)
 - Small-business lending uses **GST returns, bank statements via the Account Aggregator framework, and bureau MSME ranks (e.g., TransUnion CIBIL's CMR)** — conceptually similar to the SBSS blend of business + principal credit data. **[Likely]**

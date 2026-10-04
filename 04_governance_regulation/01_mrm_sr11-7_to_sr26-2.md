@@ -101,7 +101,7 @@
 6. **Model used before validation — allowed?** In urgent cases with restrictions, extra monitoring, stakeholder notification, time-bound (SR 26-2).
 7. **What makes a change "material"?** Changes to methodology, variables, segmentation, data sources, use, or output impact above a threshold → re-validation; minor recalibration within approved methodology → lighter review with monitoring.
 8. **What is aggregate model risk?** Risk from shared assumptions/data/methods across models (e.g., one macro scenario feeding ECL, CCAR and ICAAP).
-9. **How do you validate a vendor model?** §2 vendor row + `03_monitoring_validation/02_...` §10.
+9. **How do you validate a vendor model?** §2 vendor row + `03_monitoring_validation/02_independent_validation_playbook.md` §10.
 10. **Who owns model risk?** Model owner (1st line) owns the model's risk; MRM sets framework and challenges; board sets appetite and oversight.
 11. **What's internal audit's role in MRM?** Assess whether the MRM framework is rigorous and effective and policies are followed — not re-validate models.
 12. **How should GenAI be governed now that SR 26-2 excludes it?** Under the bank's broader risk management (AI policy, use-case risk assessment, controls, monitoring), informed by NIST AI RMF/ISO 42001 and other jurisdictions (EU AI Act, OSFI E-23, RBI draft, MAS draft) — see `03_ai_ml_genai_model_risk.md`.

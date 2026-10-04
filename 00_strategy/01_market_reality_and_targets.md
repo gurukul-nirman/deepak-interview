@@ -26,8 +26,8 @@
 | Wells Fargo | Quantitative Analytics Specialist | ₹26.6–29.8L | — | Below target |
 | Wells Fargo | **Senior QAS** | ₹35.6–39.5L | 3–6 yrs: ₹34.2–39.5L (n=50) | Close; fixed likely < 40 |
 | Wells Fargo | **Lead QAS** | ~₹42.5L avg (Glassdoor estimate) | JDs ask **5–10 yrs** + Master's | **Prime target** |
-| American Express | Manager (Band 35) | ₹35.5–39.2L | 3–6 yrs: ₹34.2–37.8L; Risk dept ₹33.8–43L | Below 40 fixed unless top |
-| American Express | **Senior Manager (Band 40)** | ₹44.6–49.3L | 3–6 yrs: ₹42.7–49.7L; Risk ₹42.9–52.5L | **Prime target** |
+| American Express | Manager (Band 35 **[Likely mapping]**) | ₹35.5–39.2L | 3–6 yrs: ₹34.2–37.8L; Risk dept ₹33.8–43L | Below 40 fixed unless top |
+| American Express | **Senior Manager (Band 40 [Likely mapping])** | ₹44.6–49.3L | 3–6 yrs: ₹42.7–49.7L; Risk ₹42.9–52.5L | **Prime target** |
 | Citi (Citicorp) | AVP | ₹36.5–40.3L | Risk dept ₹35–38.6L | Top-of-band only |
 | Citi | VP | not pulled | typically 8+ yrs | Stretch |
 | JPMorgan | Associate | ₹24.4–27L | broad band | Below target |
@@ -115,7 +115,7 @@ UAE and Saudi first (fastest visas, tax-free), Singapore and UK opportunistic.
 | **Master's-degree screens** (WF, JPM, Citi quant titles list it as required) | Possible auto-rejection | Tell me your degree; we'll target titles accordingly; FRM/CQF as partial offset | Open question |
 | **Python depth** | Coding rounds at GS/JPM/WF/AmEx/fintechs | Tested toolkit + 6 timed drills | `05_coding/` |
 | **Over-claiming** | Indian BGV checks payslips/relieving letters; interviewers drill into claimed projects | Only claim what you can defend for 15 minutes of follow-ups | Story templates |
-| **Stale regulation** | Quoting SR 11-7 as current = signals you're out of date | SR 26-2 module | `04_governance_regulation/01_...` |
+| **Stale regulation** | Quoting SR 11-7 as current = signals you're out of date | SR 26-2 module | `04_governance_regulation/01_mrm_sr11-7_to_sr26-2.md` |
 | **SBSS change** | SBA stopped SBSS screening for 7(a) small loans from **1 Mar 2026** — your SBSS model story must show awareness | Talking point + case study | Stories + case bank |
 
 ---

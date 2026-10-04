@@ -1,6 +1,6 @@
 # 06.3 · Case Studies — 16 scenarios with model answers
 
-> Use **SCOPE-D** (Situate → Check data → Outcomes → Probe concept → Examine alternatives → Decide) or the **diagnosis matrix** (`03_monitoring_validation/01_...` §6). Time yourself: 5 minutes per case, spoken. Model answers are deliberately bullet-dense — say them in sentences.
+> Use **SCOPE-D** (Situate → Check data → Outcomes → Probe concept → Examine alternatives → Decide) or the **diagnosis matrix** (`03_monitoring_validation/01_performance_monitoring_metrics.md` §6). Time yourself: 5 minutes per case, spoken. Model answers are deliberately bullet-dense — say them in sentences.
 
 ---
 

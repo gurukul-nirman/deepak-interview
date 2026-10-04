@@ -58,7 +58,7 @@ P(fraud | alert) = P(alert | fraud)·P(fraud)/P(alert). With 1% prevalence, 90% 
 ## B. Logistic regression & scorecards
 
 **B1. Walk me through building an application scorecard.**
-Objective → sample design (observation point, performance window from vintage analysis, bad definition from roll rates, indeterminates/exclusions) → dev/holdout/OOT samples → data prep → fine & coarse classing → WoE/IV screening → correlation/VIF and stepwise with business review → reject inference → logistic regression → scaling (PDO) → validation (KS/Gini, calibration, stability) → cut-off strategy (swap sets) → documentation, independent validation, implementation, monitoring. *(Full script: `01_foundations/02_...` §7.)*
+Objective → sample design (observation point, performance window from vintage analysis, bad definition from roll rates, indeterminates/exclusions) → dev/holdout/OOT samples → data prep → fine & coarse classing → WoE/IV screening → correlation/VIF and stepwise with business review → reject inference → logistic regression → scaling (PDO) → validation (KS/Gini, calibration, stability) → cut-off strategy (swap sets) → documentation, independent validation, implementation, monitoring. *(Full script: `01_foundations/02_logistic_regression_and_scorecards.md` §7.)*
 
 **B2. Why logistic regression for PD and not linear regression?**
 Binary target needs a bounded probability; linear regression can predict < 0 or > 1, has heteroskedastic non-normal errors. LR models log-odds linearly, is interpretable, stable, and regulator-friendly.
