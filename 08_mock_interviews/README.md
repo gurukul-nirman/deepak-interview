@@ -25,10 +25,14 @@ You type a command in the chat; Claude becomes the interviewer, asks one questio
 | `STATUS` | Where you stand: topic statuses, recent scores, open gaps, what to do next |
 | `EXPLAIN <concept>` | Teaching mode (not an interview) — e.g., `EXPLAIN Jeffreys test` |
 | `REVIEW PROJECT P1` · `REVIEW PROJECT P2` | Head-of-MRM style review of your portfolio report: scored against the project rubric, gaps logged |
+| `DEBRIEF <company> <round>` | After a **real** interview: list the questions and the gist of your answers → scored record in `real/`, gaps logged, next-round prep |
+| `REVIEW RESUME` | Recruiter scan + hiring-manager read of your résumé |
 
 Plain English works too ("let's do a mock on IFRS 9").
 
 ## During an interview (exam mode)
+- **Speak your answers** (dictation: Win + H or your phone's mic) and paste them unedited — typed answers flatter you
+  (`INTERVIEW_PROTOCOL.md` §2 rule 7). Say `typed` at the start to opt out.
 - One question at a time; follow-ups depend on your answer (see `INTERVIEW_PROTOCOL.md` §3).
 - No hints, corrections or scores until the end. Saying "I don't know" is fine — bluffing is penalised.
 - You may ask a clarifying question, just like in a real interview.

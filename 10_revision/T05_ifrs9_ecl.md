@@ -6,7 +6,7 @@
 - SICR is **relative to origination**; quantitative + qualitative + **30 DPD backstop**; default rebuttable at **90 DPD**.
 - ECL = Σ PD_marg × LGD × EAD × DF(EIR), **probability-weighted over scenarios** (losses convex → Jensen).
 - IFRS 9 PD = PIT, forward-looking, unbiased (no MoC/downturn); TTC→PIT via **Vasicek Z-factor**.
-- **RBI ECL:** final 27 Apr 2026, effective 1 Apr 2027; Stage 2 = 30–90 DPD with 5% floor; product floors; ~4-year transition **[Likely on floors]**.
+- **RBI ECL:** final 27 Apr 2026, effective 1 Apr 2027; Stage 2 = 30–90 DPD with 5% floor; Stage 1 floor 0.40% (std corporate/retail); CET1 add-back taper 4/5→1/5 over FY28–FY31; legacy loans to EIR by Mar 2030 **[Likely on floors/taper]**.
 
 ## Quick Q → short answer
 | Q | A |
@@ -22,6 +22,8 @@
 | IFRS 9 vs CECL? | CECL: lifetime from day 1, no stages, R&S forecast then reversion, Q-factors, unfunded only if not unconditionally cancellable |
 | ECL movement drivers? | Volume/mix, stage transfers, parameters, macro, overlays, write-offs |
 | Toy ECL (cum PD 2/4.5/7%, EAD 100/70/40, LGD 40%, EIR 10%)? | 12m 0.73; lifetime 1.61 |
+| Scenario example (base/up/down ECL 1.00/0.80/2.00, weights 50/30/20)? | Weighted 1.14 → 14% above base; upside must be below base |
+| RBI floors bind — so is model validation pointless? | No: report floor-binding vs model-driven exposure; SICR and Stage 2/3 lifetime ECL stay model-driven |
 | CECL effective? | 2020 SEC filers (ex-SRCs); 2023 others |
 
 ## From my mock interviews (auto-updated)

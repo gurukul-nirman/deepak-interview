@@ -15,7 +15,7 @@
 | **OSFI E-23** | Canada | Final **11 Sep 2025**; **effective 1 May 2027** | Enterprise-wide MRM for all federally regulated FIs; broad model definition explicitly incl. AI/ML |
 | **RBI draft MRM guidance** | India | Draft **24 Jun 2026**; comments closed 24 Jul 2026; final pending | Board-approved MRM framework for all REs (banks, NBFCs, etc.), all models incl. third-party and AI/ML |
 | **RBI ECL directions** | India | Final **27 Apr 2026**; **effective 1 Apr 2027** | Three-stage ECL for commercial banks with prudential floors and MRM for ECL models |
-| **EU AI Act** (Reg. 2024/1689) | EU | In force Aug 2024; high-risk obligations for stand-alone systems (incl. **credit scoring of natural persons**) deferred to **2 Dec 2027** (Digital Omnibus; Council approval 29 Jun 2026) | Risk management, data governance, documentation, logging, transparency, human oversight, accuracy/robustness for high-risk AI |
+| **EU AI Act** (Reg. 2024/1689) | EU | In force Aug 2024; high-risk obligations for stand-alone systems (incl. **credit scoring of natural persons**) deferred to **2 Dec 2027** by the **AI Omnibus, Reg. (EU) 2026/1744** (OJ 24 Jul 2026; in force 27 Jul 2026) | Risk management, data governance, documentation, logging, transparency, human oversight, accuracy/robustness for high-risk AI |
 | **MAS AI Risk Management Guidelines** | Singapore | Consultation 13 Nov 2025 – 31 Jan 2026; final pending | Supervisory expectations for AI oversight, AI inventories, life-cycle controls across all FIs |
 | **CBUAE Model Management Standards & Guidance** | UAE | 2022 **[Likely]** | Comprehensive model-management expectations for UAE banks (IFRS 9-heavy market) |
 | **Basel III final ("3.1")** | Global / UK / EU / US | EU CRR3 from Jan 2025; UK from 1 Jan 2027 **[Likely]**; US pending | Output floor 72.5%, IRB input floors |
@@ -71,7 +71,7 @@
 ## 6. EU AI Act — what a credit validator needs
 - **High-risk (Annex III):** AI used to evaluate **creditworthiness / establish credit scores of natural persons** (fraud detection excluded). **[Certain]**
 - **Obligations (providers/deployers):** risk-management system, **data governance** (representative, bias-examined data), technical documentation, logging, transparency to deployers, **human oversight**, accuracy/robustness/cybersecurity, post-market monitoring; deployers may need a fundamental-rights impact assessment. **[Likely — summary]**
-- **Timeline:** in force Aug 2024 → prohibitions Feb 2025 → GPAI obligations Aug 2025 → **stand-alone high-risk: 2 Dec 2027** (after the Digital Omnibus deferral). **[Certain]**
+- **Timeline:** in force Aug 2024 → prohibitions Feb 2025 → GPAI obligations Aug 2025 → **stand-alone high-risk: 2 Dec 2027**; high-risk AI in Annex I products: 2 Aug 2028 — both set by the **AI Omnibus (Reg. (EU) 2026/1744)**, published 24 Jul 2026, in force 27 Jul 2026. It is law now, not a proposal. **[Certain]**
 
 ---
 

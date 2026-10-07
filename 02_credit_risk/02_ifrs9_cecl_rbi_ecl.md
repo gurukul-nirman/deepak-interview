@@ -41,7 +41,8 @@ DF(t) = 1 / (1 + EIR)^t        (discount at the original effective interest rate
 **Worked toy example (per 100 of exposure):** cumulative PD 2% / 4.5% / 7% over 3 years → marginal 2.0% / 2.5% / 2.5%; EAD 100 / 70 / 40 (amortising); LGD 40%; EIR 10%.
 → **12-month ECL = 0.73**, **lifetime ECL = 1.61** → moving this loan to Stage 2 more than doubles its allowance (the "cliff effect").
 
-**Why multiple scenarios?** Losses are **convex** in the economy (bad states hurt more than good states help), so ECL at the average scenario < average ECL across scenarios (Jensen's inequality). E.g., base/upside/downside ECL = 1.0 / 1.4 / 2.6 with weights 50/30/20% → weighted ECL **1.44**, above the base case. **[Certain on principle]**
+**Why multiple scenarios?** Losses are **convex** in the economy (bad states hurt more than good states help), so ECL at the average scenario < average ECL across scenarios (Jensen's inequality). E.g., base/upside/downside ECL = 1.00 / 0.80 / 2.00 with weights 50/30/20% → weighted ECL = 0.50 + 0.24 + 0.40 = **1.14**, i.e., 14% above the base case: the upside saves only 0.20, the downside adds 1.00. **[Certain on principle]**
+*(Sanity check an interviewer may run on you: upside ECL must be **below** base ECL, and the weighted ECL sits above base only because the downside is further from base than the upside is.)*
 
 ---
 
@@ -114,9 +115,10 @@ DF(t) = 1 / (1 + EIR)^t        (discount at the original effective interest rate
 ## 7. RBI ECL framework (India) — what's new in 2026
 - **Final directions issued 27 Apr 2026** (after the **7 Oct 2025** draft); **effective 1 Apr 2027**. **[Certain]**
 - **Applies to** commercial banks (excluding small finance banks, payments banks and local area banks), corresponding new banks and SBI. **[Certain — per KPMG summary]**
-- **Three-stage** classification; **Stage 2 = 30–90 DPD** with a **5% minimum provision**; **product-wise prudential floors** for Stage 1 and Stage 2. **[Likely — per press/CRISIL summaries; verify floors in the directions]**
-- Requires **EIR** method, PD/LGD/EAD models with **macroeconomic inputs**, **board oversight via a committee including CFO and CRO**, and **model risk management** for ECL models. **[Certain — KPMG]**
-- **Transition:** banks can spread the one-time impact over **~4 years**; CRISIL estimates a one-time net **CET1 impact of up to ~120 bps**. **[Likely]**
+- **Three-stage** classification; **Stage 2 = 30–90 DPD** (plus SICR) with a **5% minimum provision**; **Stage 1 floor 0.40%** for standard corporate and retail loans; other product-wise prudential floors. Banks' requests for lower floors and softer Stage 2 thresholds were **not** accepted in the final text. **[Likely — per Uniqus/CRISIL summaries of the final Directions; read the floor table in the Directions before quoting product-level numbers]**
+- Requires **EIR** method (legacy loans must move to EIR by **31 Mar 2030**), PD/LGD/EAD models with **macroeconomic inputs**, **board oversight via a committee including CFO and CRO**, and **model risk management** for ECL models. **[Certain on governance — KPMG; Likely on the EIR legacy date]**
+- **Transition:** the one-time CET1 hit is added back on a **4-year taper — 4/5, 3/5, 2/5, 1/5 from FY2027-28 to FY2030-31**; CRISIL estimates a one-time net **CET1 impact of up to ~120 bps**. **[Likely]**
+- **Interview angle (VP bar):** the floors mean that for many low-risk books the *floor*, not the model, sets the provision — so a validator must report "floor-binding vs model-driven" exposure, and model-performance tests still matter because Stage 2/3 lifetime ECL and SICR are model-driven.
 - **NBFCs** already apply **Ind AS 109** ECL (phased in from FY2018–19 for large NBFCs). **[Likely]**
 - **Why it matters for you:** Indian banks, Big 4 and GCCs serving Indian banks need ECL modellers *and validators* through 2027 — and the RBI's draft MRM guidance (Jun 2026) raises the validation bar further.
 

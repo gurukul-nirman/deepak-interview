@@ -26,10 +26,17 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parents[1] / "05_coding" / "code"))
 
+for _stream in (sys.stdout, sys.stderr):  # Windows consoles/pipes default to cp1252 and crash on → ≈ −
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
+
 import problems as pb  # noqa: E402
 import solutions as ref  # noqa: E402
 
 TIME_LIMIT = 30  # seconds per test
+HAS_ALARM = hasattr(signal, "SIGALRM")  # POSIX only; on Windows the limit is checked after the call returns
 
 
 class Timeout(Exception):
@@ -42,7 +49,7 @@ def _alarm(signum, frame):  # noqa: ARG001
 
 def load_function(path: Path, name: str):
     ns: dict = {"__name__": "submission"}
-    code = path.read_text()
+    code = path.read_text(encoding="utf-8")
     exec(compile(code, str(path), "exec"), ns)  # noqa: S102 — trusted local practice code
     if name not in ns:
         raise NameError(f"function `{name}` not found in {path.name}")
@@ -57,8 +64,9 @@ def run_python(p: pb.Problem, sub: Path, include_hidden: bool) -> bool:
     all_ok = True
     for kind, t in tests:
         exp = p.reference(*copy.deepcopy(t.args), **copy.deepcopy(t.kwargs))
-        signal.signal(signal.SIGALRM, _alarm)
-        signal.alarm(TIME_LIMIT)
+        if HAS_ALARM:
+            signal.signal(signal.SIGALRM, _alarm)
+            signal.alarm(TIME_LIMIT)
         start = time.perf_counter()
         try:
             out = fn(*copy.deepcopy(t.args), **copy.deepcopy(t.kwargs))
@@ -68,8 +76,11 @@ def run_python(p: pb.Problem, sub: Path, include_hidden: bool) -> bool:
         except Exception as e:  # noqa: BLE001
             ok, msg = False, f"error: {type(e).__name__}: {e} | {traceback.format_exc().strip().splitlines()[-2].strip()}"
         finally:
-            signal.alarm(0)
+            if HAS_ALARM:
+                signal.alarm(0)
         dur = time.perf_counter() - start
+        if not HAS_ALARM and dur > TIME_LIMIT:
+            ok, msg = False, f"too slow ({dur:.0f}s > {TIME_LIMIT}s limit)"
         all_ok &= ok
         print(f"  [{kind:7}] {'PASS' if ok else 'FAIL'}  {t.name:<40} {dur:6.2f}s  {msg}")
     return all_ok
@@ -121,7 +132,7 @@ def _edge_db(pid: str) -> sqlite3.Connection:
 
 
 def run_sql(p: pb.Problem, sub: Path, include_hidden: bool) -> bool:
-    sql = sub.read_text()
+    sql = sub.read_text(encoding="utf-8")
     runs = [("visible", 2026)] + ([("hidden", 7)] if include_hidden else [])
     if include_hidden and p.pid in pb.SQL_HIDDEN_MODS:
         runs.append(("hidden", "edge"))

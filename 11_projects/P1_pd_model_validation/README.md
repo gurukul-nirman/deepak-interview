@@ -13,7 +13,8 @@ documentation (MDD). The MDD contains planted errors. Your job:
 - It gives you a deep, number-backed story for technical rounds.
 - It answers degree screens with evidence.
 
-**Time:** about 15 hours across weeks 2–4 of the plan (`00_strategy/03_six_week_plan.md`).
+**Time:** about 13 hours across weeks 2–4 of the plan (`00_strategy/03_six_week_plan.md`). If your Python is still
+slow, the six TODOs are where the hours go — do the harness drills P01–P06 first.
 **Data:** public UCI "Default of Credit Card Clients" (Taiwan, 2005; 30,000 accounts, 23 variables).
 
 ---
@@ -38,12 +39,21 @@ documentation (MDD). The MDD contains planted errors. Your job:
 
 ## Setup
 
-**Local:**
+**Local** (one command per line; Windows PowerShell 5.1 doesn't accept `&&`):
 ```bash
-pip install -r 05_coding/code/requirements.txt ucimlrepo xlrd   # from the repo root
-cd 11_projects/P1_pd_model_validation
-python developer_model.py --data synthetic && python validator_starter.py --data synthetic   # 10-second pipeline check
+pip install -r 05_coding/code/requirements.txt ucimlrepo xlrd
 ```
+```bash
+cd 11_projects/P1_pd_model_validation
+```
+```bash
+python developer_model.py --data synthetic
+```
+```bash
+python validator_starter.py --data synthetic
+```
+The last two together are the ~30-second pipeline check. The scripts write UTF-8 files and force UTF-8 console output, so
+they also run on Windows (fixed 7 Oct 2026; earlier versions crashed on `≥`/`→` under the cp1252 code page).
 
 **Google Colab (no local Python needed):**
 1. Upload `common.py`, `developer_model.py`, `validator_starter.py` and `05_coding/code/validation_toolkit.py` into one
@@ -86,8 +96,13 @@ your gap log.
   - "Give an example of an implementation issue."
 - **Lead with the conclusion and the four High findings,** then let the interviewer pick a thread. Every drill-down
   should end in a number from your report.
-- **Pair it with your real experience:** "At work I monitor IFRS 9, IRB, CCAR and SBSS models. This project is where I
-  practised the full independent-validation cycle."
+- **Pair it with your real experience:** "At work I monitor CECL/IFRS 9, IRB, CCAR and SBSS models. This project is
+  where I practised the full independent-validation cycle." (Use the regimes you actually worked on — evidence bank C1–C2.)
+- **Say what it is.** It's a training case: a deliberately flawed model on public data with a hidden answer key, not a
+  real bank's model. "Structured validation exercise on a deliberately flawed model" is accurate and still impressive.
+  The full wording is in `00_strategy/07_evidence_bank_and_resume.md` §6.
+- **The dataset is famous.** The UCI Taiwan card data is a Kaggle classic, so interviewers have seen many models built on
+  it. What's rare is a *validation* of one — lead with the findings and the governance judgment, never with the Gini.
 
 ## Publishing (after self-score ≥ 85)
 Create a public GitHub repo (e.g., `credit-pd-model-validation`) and include:
@@ -95,6 +110,13 @@ Create a public GitHub repo (e.g., `credit-pd-model-validation`) and include:
 - `developer_model.py`
 - your completed `validator_starter.py`
 - `report/VALIDATION_REPORT.md` (or a PDF)
-- a short README with the disclaimer
+- a short README with the disclaimer **and an honest split of the work**: "Scaffold (data loader, simulated developer
+  model, evidence pipeline, challenger functions) supplied as a training case; my work: TODO #1–#6, the analysis, the
+  findings and the report."
+
+**Rule before you publish:** you must be able to explain every line of every file in the public repo — the WoE and GBM
+challengers, the DeLong call, the bootstrap. An interviewer who opens the repo and finds code you can't explain will
+treat it as a fabricated claim, which ends a process. If a function is beyond you today, rewrite it in your own simpler
+code or leave it out.
 
 **Exclude `ANSWER_KEY.md`.** Link the repo from your résumé and LinkedIn "Featured" section.

@@ -92,7 +92,7 @@ class Evidence:
 
     def save(self) -> Path:
         path = OUT / "validation_evidence.md"
-        path.write_text("\n\n".join(self.parts) + "\n")
+        path.write_text("\n\n".join(self.parts) + "\n", encoding="utf-8")
         return path
 
 

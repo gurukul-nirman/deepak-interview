@@ -82,6 +82,10 @@ Interviewers will probe: *"Were you executing a client's process, or making judg
 
 ## 6. Project deep-dive sheets (fill one per project — this is your highest-ROI prep)
 
+> **Start with `07_evidence_bank_and_resume.md` §1** (evidence mining, regime clarity, depth ranking). The sheets below
+> are only as good as the facts you bring to them. Rank your depth first and fill the sheets for your depth-5 models
+> before the others.
+
 ### 6.0 Universal sheet (copy for each project)
 
 ```
@@ -133,6 +137,8 @@ What you'd improve / do differently: _________________________________
 
 ### 6.3 IFRS 9 / CECL models
 **Grilling questions:**
+0. **CECL or IFRS 9 — which entity reports under which?** Your client is a US bank, so its US books use CECL; IFRS 9
+   applies only to non-US entities or parents. Answer precisely or the rest of the thread loses credibility.
 1. Which portfolio and components did you monitor (12m PD, lifetime PD term structure, LGD, EAD/CCF, staging/SICR, macro satellite models)?
 2. How is lifetime PD constructed (transition matrices / survival / vintage-hazard / PIT-adjusted)?
 3. What are the SICR rules — relative/absolute PD thresholds, watchlist, 30 DPD backstop? How did you monitor staging quality? *(stage migration, % of Stage 3 previously in Stage 2, time in Stage 2, cure rates)*
@@ -145,6 +151,9 @@ What you'd improve / do differently: _________________________________
 10. COVID-era data: how treated?
 
 ### 6.4 Basel IRB models
+0. **US advanced approaches or a UK/EU subsidiary's IRB?** And what would the 19 Mar 2026 US endgame re-proposal (which
+   would remove the advanced approaches) mean for these models' use, tier and monitoring? See
+   `02_credit_risk/03_basel_irb.md` §1b. Don't quote EBA MoC categories as US practice.
 1. Asset class (retail mortgage / QRRE / other retail / corporate)? Which parameters (PD/LGD/EAD-CCF)?
 2. Rating philosophy (PIT / TTC / hybrid) — evidence?
 3. Calibration: long-run average default rate, central tendency, margin of conservatism (EBA categories A/B/C).
@@ -170,7 +179,7 @@ What you'd improve / do differently: _________________________________
 ## 7. LinkedIn
 
 - **Headline:** Credit Risk Model Monitoring & Validation | IFRS 9 / CECL | Basel IRB | CCAR Stress Testing | SAS · SQL · Python
-- **About (4 lines):** positioning sentence · scale (models, exposure) · 2 achievements with numbers · "Open to model validation / MRM roles (India, UAE)".
+- **About (4 lines):** positioning sentence · scale (models, exposure) · 2 achievements with numbers · "Open to model validation / MRM roles (India; Europe/Singapore later)".
 - Turn on **Open to Work → recruiters only**.
 
 ---

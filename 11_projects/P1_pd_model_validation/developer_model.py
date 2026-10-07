@@ -185,7 +185,7 @@ def main() -> None:
         OUT / "development_scores.csv", index=False)
     pd.DataFrame({"acct_id": df["acct_id"], "pd": score(spec, df)}).to_csv(
         OUT / "production_scores.csv", index=False)
-    (OUT / "MDD_developer_summary.md").write_text(write_mdd(df, dev, res, score(coefs, dev), label))
+    (OUT / "MDD_developer_summary.md").write_text(write_mdd(df, dev, res, score(coefs, dev), label), encoding="utf-8")
 
     print(f"[{label}] {MODEL_ID} built on {len(dev):,} accounts; evidence pack written to {OUT}")
     print("Next: read outputs/MDD_developer_summary.md, then run validator_starter.py with the same --data.")

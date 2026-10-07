@@ -9,6 +9,8 @@
 ## Quick Q → short answer
 | Q | A |
 |---|---|
+| Your IRB models were at a US bank — which rules? | US advanced approaches (12 CFR 217 subpart E), A-IRB only, Collins floor; EBA MoC/DoD are EU/UK concepts |
+| US endgame re-proposal (Mar 2026)? | Would delete AIRB for Cat I–II → ERBA (standardised); final pending — use change ⇒ model-use review, re-tier, monitoring redesign **[Likely]** |
 | K formula? | LGD·[N((N⁻¹(PD)+√R·N⁻¹(0.999))/√(1−R)) − PD]·MA; RWA = 12.5·K·EAD |
 | Correlations? | Mortgage 0.15 · QRRE 0.04 · other retail 0.03–0.16 · corporate 0.12–0.24 |
 | Why R falls with PD? | High-PD defaults are idiosyncratic; low-PD defaults are systemic |

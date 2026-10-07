@@ -57,13 +57,14 @@ Pay signal (band data from 00_strategy/01): ____    Our ask: ____
 | PRA SS1/23, ECB, EBA, OSFI E-23, RBI, EU AI Act, MAS | Regulations | `04_governance_regulation/02_global_regulations_quick_reference.md` |
 | machine learning, XGBoost, SHAP, explainability, fairness, fraud | ML validation | `01_foundations/03_ml_for_credit_risk.md` |
 | GenAI, LLM, agentic AI | AI model risk | `04_governance_regulation/03_ai_ml_genai_model_risk.md` |
-| Python, PySpark, pandas | Coding | `05_coding/01_python_for_validation.md` |
+| Python, pandas | Coding | `05_coding/01_python_for_validation.md` |
+| PySpark, Spark, Databricks, Hive, big data | Coding at scale | `05_coding/04_pyspark_primer.md` |
 | SQL, Teradata, Oracle, Snowflake, Hive | SQL | `05_coding/02_sql_for_credit_risk.md` |
 | SAS, Base SAS, macros | SAS | `05_coding/03_sas_essentials.md` |
 | statistics, econometrics, hypothesis testing | Stats | `01_foundations/01_statistics_from_scratch.md` |
 | stakeholder management, communication, leadership | Behavioural | `06_interview_bank/04_behavioral_hr_negotiation.md` |
 
-**Not yet covered in depth (tell me if a JD needs them):** market risk / counterparty credit risk model validation (VaR, FRTB, CVA, PFE), AML/transaction-monitoring model validation, pricing/ALM models, operational-risk models, PySpark at scale. I'll add a focused module the moment a JD you're pursuing requires one.
+**Not yet covered in depth (tell me if a JD needs them):** market risk / counterparty credit risk model validation (VaR, FRTB, CVA, PFE), AML/transaction-monitoring model validation, pricing/ALM models, operational-risk models. PySpark now has a primer (`05_coding/04_pyspark_primer.md`), not production depth. I'll add a focused module the moment a JD you're pursuing requires one.
 
 ---
 

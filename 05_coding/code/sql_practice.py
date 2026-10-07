@@ -15,10 +15,18 @@ Months are stored as first-of-month ISO strings 'YYYY-MM-01' (safe for SQLite da
 from __future__ import annotations
 
 import sqlite3
+import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+
+if __name__ == "__main__":  # Windows consoles/pipes default to cp1252 and crash on → ≈ −
+    for _stream in (sys.stdout, sys.stderr):
+        try:
+            _stream.reconfigure(encoding="utf-8")
+        except (AttributeError, ValueError):
+            pass
 
 DB = Path(__file__).with_name("credit_practice.db")
 rng = np.random.default_rng(2026)  # replaced inside build(seed)
