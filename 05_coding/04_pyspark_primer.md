@@ -4,6 +4,11 @@
 > `00_strategy/01_market_reality_and_targets.md` §4). You don't need production Spark experience to clear most validation
 > loops, but you must not freeze when asked. The logic is the SQL and pandas you already know; only the API differs.
 > **Time:** 60–90 minutes once (Colab: `!pip install pyspark`), then one drill a week.
+> **Verified 7 Oct 2026** on PySpark 3.5.9 (Windows 11, Java 21): every pattern in §3 ran; PSI and KS matched
+> `validation_toolkit` exactly (0.3318 and 0.3836 on the demo data).
+> **Local setup on your laptop:** Colab is simplest. Locally, Spark 4.x needs a full JDK 17+ — the Java bundled with
+> Android Studio (your current `JAVA_HOME`) lacks a module Spark 4 requires and fails with `JAVA_GATEWAY_EXITED`.
+> `pip install "pyspark<4"` works with it. A `winutils.exe` warning at start-up is harmless for these drills.
 >
 > **Honest line if asked:** "I haven't run PySpark in production. I know the DataFrame API — groupBy/agg, joins, window
 > functions — and it's the same logic as my SQL and pandas work. For example, here's how I'd compute PSI at scale…"
