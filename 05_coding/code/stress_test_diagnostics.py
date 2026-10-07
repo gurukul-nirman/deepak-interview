@@ -8,6 +8,7 @@ Needs: numpy, pandas, statsmodels
 """
 from __future__ import annotations
 
+import sys
 import warnings
 
 import numpy as np
@@ -18,6 +19,11 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 from statsmodels.stats.stattools import durbin_watson, jarque_bera
 from statsmodels.tsa.stattools import adfuller, kpss
 
+for _stream in (sys.stdout, sys.stderr):  # Windows consoles/pipes default to cp1252 and crash on → ≈ −
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
 warnings.filterwarnings("ignore")
 rng = np.random.default_rng(5)
 

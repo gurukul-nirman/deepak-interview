@@ -36,6 +36,26 @@
 
 ---
 
+## 3b. Questions your profile invites — prepare these before the first recruiter call
+Panels probe the edges of a profile. Yours has five: no Master's, no certification, vendor-side title, monitoring rather
+than validation, and a large pay jump. Answer each calmly, in under 45 seconds, and end on evidence. Adapt the wording;
+never add facts you can't defend.
+
+| They ask | What they're really testing | Answer shape |
+|---|---|---|
+| "The JD asks for a Master's in a quantitative field. You have a B.Tech." | Can you do the maths without the degree? | "My B.Tech in Electrical & Electronics Engineering is quantitative — probability, signals, linear algebra, numerical methods — and I've applied statistics to regulatory models daily for five years. My validation project shows the work end to end. I'm happy to be tested on any technical area." Then stop; don't apologise. |
+| "Why no FRM / CFA / CQF?" | Commitment to learning | "I prioritised hands-on depth: [Python / validation project / regulation]. If the role values FRM, I'd plan Part I in [month] — but I'd rather you judge me on the technical rounds." (Say "plan" only if you mean it.) |
+| "You're at a vendor. Banks would map you to [Associate/AVP]. Why VP / Lead?" | Level evidence | Scope, not title: models owned, decisions influenced, who used your work (evidence bank §1 A4–A5, B4, E1–E4). "I'm comfortable being assessed at the Lead bar in the technical rounds." |
+| "You've done monitoring, not validation." | Can you challenge, not just compute? | "Monitoring is the outcomes-analysis and ongoing-monitoring pillar of validation. I've diagnosed root causes and recommended remediation across [model families]. For the conceptual-soundness and implementation pillars, I did a full independent validation as a project — [one-line headline finding]." |
+| "Why not move to the client bank directly?" | Motivation, loyalty | "I want an independent second-line role. The client team I support is first line, and moving there would keep me on the monitoring side." (Use only if true; otherwise give your real reason.) |
+| "Your CTC is 26.5. You're asking 40 fixed." | Is the ask grounded? | "It reflects the level and the band for this role, not a hike on my current one — I'm moving from a vendor role into an in-house second-line role, and I've benchmarked against this grade's band." Never misstate current CTC. |
+| "Three months with no buy-out is long." | Risk of you not joining | "It is, and I'm stating it upfront. I'll plan a clean handover and ask for early release; I'll keep you updated weekly after acceptance." |
+| "What's SmarterPay?" (if it appears anywhere) | Over-claiming | "I'm being onboarded to those models — knowledge transfer starts this month — so I won't claim hands-on experience yet." |
+| "Have you faced a regulator or auditor?" | Credibility in 2LoD | Exactly what you did (evidence bank E4). If nothing direct: "I prepared evidence for [validation/audit] reviews; I haven't been in the room with a regulator." Honesty here scores. |
+| "How much Python do you really use?" | Pass/fail gate for coding rounds | What you've built (toolkit drills, P1 TODOs) and how often you use it now. Then offer: "Happy to code live." |
+
+---
+
 ## 4. HR screen — numbers and facts ready
 | Question | Your line |
 |---|---|

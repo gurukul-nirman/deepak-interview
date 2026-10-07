@@ -12,6 +12,7 @@
 | **Coding** | `START CODING <python\|sql\|sas\|mixed> [easy\|medium\|hard]` | 45–60 min | 2–3 problems; your code is run against visible + hidden tests; then follow-ups | `08_mock_interviews/coding/YYYY-MM-DD_C##_<slug>.md` (+ `submissions/`) |
 | **Full selection process** | `START PROCESS <company/role>` or `START PROCESS JD: <paste JD>` | 7–8 rounds over several days | One round at a time; **strict gate** — fail a round and the process ends | `08_mock_interviews/processes/P##_<company>_<role>_<YYYY-MM-DD>/` — one file per round |
 | **Quick revision** | `REVISE <topic>` | 10–15 min | 10 rapid questions, short answers, instant feedback | No interview doc; results appended to the topic's revision file + skills matrix |
+| **Real-interview debrief** | `DEBRIEF <company> <round>` | 20–30 min | You list the questions you were asked and the gist of your answers; Claude scores them, writes short model answers, logs gaps | `08_mock_interviews/real/YYYY-MM-DD_<company>_<round>.md` from `_templates/real_interview_debrief.md`; updates `09_progress/applications_tracker.md` |
 
 Defaults: topic interviews are **standard length at VP/Lead bar**; coding is **medium**; processes use the **Wells Fargo Lead QAS** persona unless you name another or paste a JD.
 
@@ -24,6 +25,12 @@ Defaults: topic interviews are **standard length at VP/Lead bar**; coding is **m
 4. **Interviewer persona:** a realistic senior person (e.g., "VP, Corporate Model Risk, Wells Fargo"), polite but probing; may interrupt a long answer with "Summarise that in two lines."
 5. **Consistency checks:** the interviewer may link back to an earlier answer ("Earlier you said PSI was 0.3 — how does that change your calibration view?").
 6. **You can say `PAUSE`** (resume later with `RESUME <interview id>`) or **`END`** (finish early → document generated with what was covered).
+7. **Spoken mode (strongly recommended).** Real rounds are spoken; typed answers are more polished than anything you'd
+   say live, so they flatter your score. Answer by voice dictation (Windows: Win + H; or your phone's keyboard mic) and
+   paste the transcript **unedited**, fillers included. Budgets: a definition ≤ 120 words, an explanation ≤ 200, a case or
+   story ≤ 300 (≈ 2 minutes spoken). The interviewer notes word counts in the record, and an answer that runs past its
+   budget, or buries the conclusion after the second sentence, scores at most 3 on "To the point". Say `typed` at the
+   start of a mock to switch this off (coding mocks are always typed).
 
 ---
 
@@ -117,6 +124,9 @@ Templates: `08_mock_interviews/_templates/`.
 3. `09_progress/gap_log.md` — new gaps (IDs G###); earlier gaps marked **Fixed** when you now answer them correctly.
 4. `10_revision/<topic>.md` — "From my mock interviews" section gets dated Q→A items.
 5. Git: commit and push (so nothing is lost if the session restarts).
+6. After a **real-interview debrief**: the same gap-log and revision updates (source = the debrief), plus the stage and
+   next step in `09_progress/applications_tracker.md`. Real-interview gaps outrank mock gaps when choosing what to study
+   next.
 
 **Status rules (skills matrix):** ⚪ not assessed · 🔴 latest < 50 · 🟠 50–64 · 🟡 65–74 · 🟢 latest ≥ 75 and previous ≥ 70 · ⭐ two consecutive ≥ 85.
 **Re-test spacing:** 🔴/🟠 after 3–4 days of study · 🟡 after 7 days · 🟢 after 14 days.

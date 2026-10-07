@@ -16,7 +16,13 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-COLUMNS = (["LIMIT_BAL", "SEX", "EDUCATION", "MARRIAGE", "AGE",
+for _stream in (sys.stdout, sys.stderr):  # Windows consoles/pipes default to cp1252 and crash on → ≈ −
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
+
+COLUMNS =(["LIMIT_BAL", "SEX", "EDUCATION", "MARRIAGE", "AGE",
             "PAY_0", "PAY_2", "PAY_3", "PAY_4", "PAY_5", "PAY_6"]
            + [f"BILL_AMT{i}" for i in range(1, 7)] + [f"PAY_AMT{i}" for i in range(1, 7)])
 TARGET = "default"

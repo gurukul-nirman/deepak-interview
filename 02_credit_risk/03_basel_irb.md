@@ -6,8 +6,16 @@
 
 ## 1. Basel in five lines
 - **Basel I (1988):** crude risk weights. **Basel II (2004):** three pillars + **IRB**. **Basel III (2010–2017):** capital quality, buffers, leverage, liquidity; **2017 finalisation** adds the **72.5% output floor**, IRB input floors, and limits on A-IRB for some exposures. **[Certain]**
-- **Implementation (as of Oct 2026):** EU CRR3 from Jan 2025 (output floor phased in); UK "Basel 3.1" from **1 Jan 2027** **[Likely — verify]**; US "endgame" timing still in flux **[verify]**.
+- **Implementation (as of Oct 2026):** EU CRR3 from Jan 2025 (output floor phased in); UK "Basel 3.1" from **1 Jan 2027** **[Likely — verify]**; US "endgame" **re-proposed 19 Mar 2026** (would remove the advanced approaches — see §1b), final pending **[Likely — verify]**.
 - **Pillar 1** minimum capital · **Pillar 2** ICAAP/SREP (incl. stress testing, model risk) · **Pillar 3** disclosure.
+
+## 1b. If your IRB models sit in a US bank (check this first — it is probably your case)
+Your client is a US bank, so "Basel IRB" most likely means the **US advanced approaches** (12 CFR 217, subpart E), unless the models belong to a UK/EU subsidiary. An interviewer will ask which. Know the answer from your own documentation before any interview.
+- **US advanced approaches = A-IRB only.** The US never adopted F-IRB; banks estimate PD, LGD and EAD. Required for the largest banks (Category I–II). **[Certain on A-IRB-only; Likely on scope wording]**
+- **Collins floor ("dual stack"):** advanced-approaches banks also compute standardised RWA and are bound by the higher of the two, so AIRB RWA is often **not the binding** constraint. **[Certain]**
+- **Endgame re-proposal (19 Mar 2026):** the agencies proposed to **delete the advanced approaches** for credit (and operational) risk and replace them with a standardised **Expanded Risk-Based Approach (ERBA)** for Category I–II banks; comments closed 18 Jun 2026; final rule pending. **[Likely — verify status before quoting]**
+- **What that means for "your" IRB models (VP-bar answer):** if finalised, PD/LGD/EAD models lose their Pillar 1 use but usually stay in use for stress testing, CECL inputs, internal/economic capital, risk appetite and pricing. A use change is a **model-use review** trigger: re-tier under SR 26-2 (materiality = exposure + purpose), redesign the monitoring plan (drop capital-only tests, keep performance tests for the remaining uses), and update the inventory.
+- **Vocabulary trap:** EBA MoC categories A/B/C, the EU definition-of-default thresholds (€100 + 1%) and ECB reporting tests are **EU/UK** concepts. Don't present them as US rules. For a US bank, describe the default definition and conservatism approach your client actually documents.
 
 ## 2. Approaches for credit risk
 | Approach | Bank estimates | Supervisor provides |

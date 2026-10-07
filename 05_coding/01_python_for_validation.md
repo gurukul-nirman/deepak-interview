@@ -9,10 +9,11 @@
 | `code/demo_end_to_end.py` | Synthetic SBSS-style business-card portfolio → WoE scorecard → points → monitoring → validation → auto-drafted findings. Output saved in `code/demo_output.txt`. |
 | `code/stress_test_diagnostics.py` | ADF/KPSS, OLS with HAC SEs, DW/BG/BP/JB, VIF, dynamic out-of-time backtest, sensitivity, rolling-coefficient stability. Output in `code/stress_test_output.txt`. |
 | `code/sql_practice.py` | Builds a SQLite DB and runs the 12 SQL drills. |
+| `04_pyspark_primer.md` | PySpark DataFrame API mapped to pandas/SQL; PSI, KS and roll rates at scale; what to say if you haven't used Spark in production. |
 
 ---
 
-## Part A — Setup and essentials (Week 1, Saturday)
+## Part A — Setup and essentials (Week 1)
 
 ### A1. Setup (pick one)
 - **Easiest:** Google Colab (browser, nothing to install). Upload the `code/` files.
@@ -116,7 +117,7 @@ ols = sm.OLS(y_ts, sm.add_constant(X_ts)).fit(cov_type="HAC", cov_kwds={"maxlags
 
 ---
 
-## Part B — Build-it-yourself (Week 2, Saturday). Don't copy; write, then compare with the toolkit.
+## Part B — Build-it-yourself (Weeks 1–3, alongside the 20-minute harness drills). Don't copy; write, then compare with the toolkit.
 
 Use this data for all exercises:
 ```python
@@ -156,21 +157,21 @@ psi = np.sum((a - e) * np.log(a / e))
 
 ---
 
-## Part C — Timed sets (45 minutes each, camera on, narrate aloud)
+## Part C — Timed sets (45 minutes each, camera on, narrate aloud) — extra practice whenever C1/C2 are below 🟢
 
-**Set 1 (Week 4 Sat) — Monitoring basics**
+**Set 1 — Monitoring basics**
 1. Bad rate and count by `industry` in `dev`, sorted descending by bad rate.
 2. Gains table and KS for `vendor_score` (orientation!). Is rank-ordering monotonic?
 3. PSI for `vendor_score` dev → rec. RAG it. One sentence of interpretation.
 
-**Set 2 (Week 4 Sat) — SQL** → drills D3, D4, D6 from `02_sql_for_credit_risk.md` without looking.
+**Set 2 — SQL** → drills D3, D4, D6 from `02_sql_for_credit_risk.md` without looking.
 
-**Set 3 (Week 5 Sat) — Model build & calibration**
+**Set 3 — Model build & calibration**
 1. WoE/IV for `utilization`, `delinq_12m`, `months_in_business` (missing as own bin). Rank by IV.
 2. Logistic regression of `bad` on the 3 WoE variables (statsmodels). Interpret signs (why negative?).
 3. Calibration table + HL test on `rec`. What does the pattern of O vs E across deciles tell you?
 
-**Set 4 (Week 6 Sat) — Validation judgment**
+**Set 4 — Validation judgment**
 1. Assign 7 PD grades (quantiles of dev PD); binomial & Jeffreys tests on `rec`. Which grades fail?
 2. Bootstrap 95% CI for Gini on `rec`; is the drop vs dev statistically meaningful?
 3. Write a 5-line finding (Observation, Criteria, Cause, Impact, Recommendation, Severity).

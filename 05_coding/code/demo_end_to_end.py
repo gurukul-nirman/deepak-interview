@@ -13,6 +13,7 @@ Needs: numpy, pandas, scipy, statsmodels, scikit-learn
 """
 from __future__ import annotations
 
+import sys
 import warnings
 
 import numpy as np
@@ -22,6 +23,11 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 
 import validation_toolkit as vt
 
+for _stream in (sys.stdout, sys.stderr):  # Windows consoles/pipes default to cp1252 and crash on → ≈ −
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except (AttributeError, ValueError):
+        pass
 warnings.filterwarnings("ignore", category=FutureWarning)
 pd.set_option("display.width", 140)
 pd.set_option("display.max_columns", 20)

@@ -31,9 +31,12 @@
 | 13 | **Kit lived only on a side branch** | New chats wouldn't see it | PR to `main` so every session loads the kit and the protocol |
 
 ## 3. Known limits (on request, not built yet)
+> **Update 7 Oct 2026:** a second audit — this time from a hiring manager's seat — is in `06_prep_audit_2026-10-07.md`.
+> It re-weights the plan towards your own evidence, résumé and pipeline, fixes Windows-breaking bugs in the code, and adds
+> the evidence bank, applications tracker, real-interview debriefs and a PySpark primer.
 - Market/counterparty credit risk model validation (VaR, FRTB, CVA) — only if a JD needs it.
 - AML/transaction-monitoring model validation in depth (fraud basics are covered).
-- PySpark at scale.
+- PySpark at scale (a primer now exists: `05_coding/04_pyspark_primer.md`).
 - Europe/Singapore abroad pack (you asked to do it later).
 - Some figures remain labelled **[Likely]/[Assumption]** (e.g., AmEx band mapping, RBI ECL floors) — verify in the source before quoting in an interview.
 

@@ -17,6 +17,10 @@
 | Notice? | "Three months, no buy-out; I'll plan a clean handover" |
 | They offer ₹34L fixed? | Thank → anchor to band & scope → competing process → ask fixed or grade flexibility |
 | "Max 30% hike" | Benchmark to the grade's band, not current CTC — it's a level change |
+| "JD asks for a Master's" | B.Tech EEE is quantitative + 5 years applying statistics to regulatory models + validation project; offer to be tested — don't apologise |
+| "Have you signed off a validation?" | No — sign-off is MRM's; I own the monitoring/outcomes work that feeds it, supported reviews, and did a full validation as a project |
+| "Vendor title — why Lead/VP?" | Scope, not title: models owned, decisions changed, who used your work (evidence bank §1 E) |
+| "Faced a regulator?" | Exactly what you did; if not in the room, say so — honesty scores |
 
 ## Story slots to have ready (titles only)
 S1 breach diagnosed · S2 challenged with evidence · S3 error others missed · S4 automation · S5 deadline pressure · S6 explained to non-technical · S7 mistake · S8 mentoring · S9 conflict · S10 learned fast

@@ -20,7 +20,12 @@ bank (Kestrel Bank, India HQ, with Amsterdam and Singapore branches) wants to ro
   - OWASP LLM Top 10;
   - human-oversight design.
 
-**Time:** about 5 hours in week 4 (`00_strategy/03_six_week_plan.md`).
+**Time:** the plan now budgets about **3 hours** for a **compressed version** (audit, 7 Oct 2026): read the case pack
+once, then write a **2-page memo** — corrected classification per jurisdiction, the six most serious issues with case
+evidence, and a scope-limited recommendation with testable conditions. Do the full template (about 5 hours) only if your
+pipeline includes AI-validation or AI-governance roles (e.g., GenAI validator teams), or after P1 is published.
+**Why compressed:** for credit-model validation roles, AI governance is usually one interview thread, not a gate. It
+differentiates you; it rarely decides the offer.
 **Study first:** `04_governance_regulation/04_ai_governance.md` and `04_governance_regulation/03_ai_ml_genai_model_risk.md`.
 
 ## Files

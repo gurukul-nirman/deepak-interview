@@ -52,6 +52,7 @@
 | C5 | SAS | data step traps, PROCs, PSI/KS macros | P2 | `05_coding/03_sas_essentials.md` | ☐ | ☐ |
 | C6 | Code review | spot bugs in validation code | P2 | interviewer-generated | ☐ | ☐ |
 | C7 | Time-series diagnostics | ADF/KPSS, HAC, BG, dynamic back-test | P2 | `05_coding/code/stress_test_diagnostics.py` | ☐ | ☐ |
+| C8 | PySpark basics | groupBy/agg, joins, windows; PSI/KS at scale; honest "not in production" line | P3 (P2 if a JD lists it) | `05_coding/04_pyspark_primer.md` | ☐ | ☐ |
 
 ## Module 7 — Role-specific (P3)
 | Code | Topic | Study |
@@ -63,6 +64,9 @@
 ---
 
 ## When are you "interview-ready"?
+- [ ] **Evidence bank filled** (`00_strategy/07_evidence_bank_and_resume.md` §1) and **T12 ≥ 75** — your own work survives
+      15 minutes of drill-down
+- [ ] Résumé reviewed (`REVIEW RESUME`) and the pipeline running (≥ 30 applications, ≥ 3 live processes)
 - [ ] All **P1 topics** at 🟢 (latest ≥ 75 and previous ≥ 70) in `skills_matrix.md`
 - [ ] **C2 and C4** coding mocks ≥ 70 with hidden tests passing
 - [ ] **One full process** cleared through R7 at the VP/Lead bar

@@ -10,16 +10,22 @@
 - Tools: SQL, SAS, some Python, a little Tableau.
 - B.Tech (EEE). Notice period 3 months, no buy-out.
 
-**Constraints:** 6 weeks (5 Oct → 15 Nov 2026) · about 15 h/week · Pareto-first · starts from zero knowledge.
+**Constraints:** 6 weeks (5 Oct → 15 Nov 2026; re-baselined Wed 7 Oct) · about 15 h/week · Pareto-first · assumes
+nothing, so skim what you already know.
+
+> **Audit, 7 Oct 2026:** the kit was reviewed from a hiring manager's seat — ratings, gaps and the fixes applied are in
+> `00_strategy/06_prep_audit_2026-10-07.md`. Read it first; the plan and several files changed.
 
 ---
 
 ## 1. Start here
 
-**Very first session (Mon 5 Oct):**
-1. Open a Claude Code session on this repo and type **`START DIAGNOSTIC`** (about 45 minutes, exam mode).
-2. Then type **`STATUS`**. You get your starting skills matrix and the three things to do next.
-3. Follow `00_strategy/03_six_week_plan.md` day by day.
+**Very first session (now Wed 7 Oct):**
+1. Read `00_strategy/06_prep_audit_2026-10-07.md` (15 minutes).
+2. Open a Claude Code session on this repo and type **`START DIAGNOSTIC`** (about 45 minutes, exam mode — dictate your
+   answers, don't type them; see the protocol's spoken mode).
+3. Then type **`STATUS`**. You get your starting skills matrix and the three things to do next.
+4. Follow `00_strategy/03_six_week_plan.md` day by day. Thursday is the evidence bank; Friday is résumé v1.
 
 **Every session:**
 
@@ -72,16 +78,19 @@ Full rules: `08_mock_interviews/INTERVIEW_PROTOCOL.md` · user guide: `08_mock_i
 | `NEXT ROUND` | Next round of the current process (only if the last one was cleared) |
 | `PAUSE` · `RESUME <id>` · `END` | Pause; continue later; finish early and write the record |
 | `REVISE T03` | 10 rapid questions from the topic's refresher, instant feedback |
-| `STATUS` | Statuses, recent scores, open gaps, next three actions |
+| `STATUS` | Statuses, recent scores, open gaps, application pipeline, next three actions |
 | `EXPLAIN <concept>` | Teaching mode, e.g., `EXPLAIN Jeffreys test` |
 | `REVIEW PROJECT P1` · `REVIEW PROJECT P2` | Head-of-MRM review of your portfolio report |
+| `REVIEW RESUME` | Recruiter 6-second scan + hiring-manager read of your résumé; flags over-claims and missing numbers |
+| `DEBRIEF Citi R2` | After a **real** interview: log the questions, get scored model answers, gaps and next-round prep |
+| "applied to …", "recruiter said …" | Plain English updates the applications tracker |
 
 **Topic codes (full list in `09_progress/syllabus.md`):**
 - **Core:** T01 statistics · T02 LR & scorecards · T03 monitoring metrics · T04 validation process & findings · T05 IFRS
   9/CECL · T06 Basel IRB · T07 stress testing · T08 MRM governance · T09 AI governance · T10 ML validation · T11 credit
   fundamentals · T12 your projects · T13 behavioural/HR.
 - **As needed:** T14 GenAI risk · T15 wholesale credit · T16 data/implementation · T17 fraud/AML · T18 quant puzzles.
-- **Coding:** C1–C7.
+- **Coding:** C1–C8 (C8 = PySpark basics).
 
 **Personas for `START PROCESS`** (`08_mock_interviews/process_personas.md`):
 - **India:** WF-LQAS (default), AMEX-SM, CITI-MRM, JPM-MRGR, BARC-IVU, HSBC-MRM, GS-MRM, SCB-MV, DB-MRM, BIG4-ECL,
@@ -98,6 +107,8 @@ Full rules: `08_mock_interviews/INTERVIEW_PROTOCOL.md` · user guide: `08_mock_i
 | **What you know well / what to improve / what to study** — status per topic, scores, re-test dates, project stages | `09_progress/skills_matrix.md` |
 | Every knowledge gap found in mocks (and when it was fixed) | `09_progress/gap_log.md` |
 | Every interview and process with scores | `09_progress/interview_log.md` |
+| **Your pipeline:** applications, referrals, recruiters, pay-band signals | `09_progress/applications_tracker.md` |
+| **Your evidence:** numbers, regime clarity, depth ranking, résumé v1 | `00_strategy/07_evidence_bank_and_resume.md` |
 | Quick refreshers (short answers), updated after every mock | `10_revision/` |
 
 **Current status:** not yet assessed. Run `START DIAGNOSTIC`.
@@ -117,12 +128,13 @@ Full rules: `08_mock_interviews/INTERVIEW_PROTOCOL.md` · user guide: `08_mock_i
 ## 5. The six weeks at a glance (`00_strategy/03_six_week_plan.md`)
 | Week | Focus | Mocks / projects |
 |---|---|---|
-| 1 · 5–11 Oct | Diagnostic · statistics · LR/scorecards · your story · résumé · 10 applications | `START DIAGNOSTIC` |
-| 2 · 12–18 Oct | Monitoring metrics · validation process | T03 · coding (Python) · **P1 starts** |
-| 3 · 19–25 Oct | IFRS 9/CECL/RBI ECL · IRB · stress testing | T05 · T04 short · coding (SQL) · P1 analysis |
-| 4 · 26 Oct–1 Nov | SR 26-2 & global MRM · AI governance | T09 or T08 · T06 short · **P1 report · P2** |
-| 5 · 2–8 Nov | ML validation · behavioural · projects deep-dive | T10 · T12 · **Process 1 (WF-LQAS)** |
-| 6 · 9–15 Nov | Finish Process 1 · Process 2 (live JD or second persona) · revision | Process 2 · publish P1 |
+| 1 · Wed 7–11 Oct | Diagnostic · **evidence bank** · **résumé v1** · 2 project sheets · 10 applications + 5 referral asks | `START DIAGNOSTIC` · `REVIEW RESUME` |
+| 2 · 12–18 Oct | Monitoring metrics · validation process · first stories | **T12 short** · T03 · coding (Python) · **P1 starts** |
+| 3 · 19–25 Oct | CECL/IFRS 9/RBI ECL · IRB (incl. US context) · stress testing | T05 (or T07) · T04 short · coding (SQL) · P1 analysis |
+| 4 · 26 Oct–1 Nov | P1 report · SR 26-2 & AI governance essentials | **T12 re-test** · T08 or T06 short · P1 review · P2 memo (optional) |
+| 5 · 2–8 Nov | ML validation · behavioural | T10 short · T13 short · **Process 1** R0–R5 |
+| 6 · 9–15 Nov | Finish Process 1 · real-interview mode · publish P1 | R6–R7 · JD-specific rounds · coding re-test |
+| 7–12 · to 27 Dec | Interview season: JD prep, mocks of the next real round, `DEBRIEF` within 24 h | 6–8 h/week |
 
 When a real interview is scheduled: paste the JD (`07_jd_analysis/`) and run `START PROCESS JD: <paste>` for the
 rounds you'll face.
@@ -133,11 +145,12 @@ rounds you'll face.
 
 | Project | What you do | Time |
 |---|---|---|
-| **P1 · PD-model validation** | Validate a deliberately flawed credit-card PD model on public UCI data: replicate, test, find the 13 planted issues, write a committee-style report | ~15 h, weeks 2–4 |
-| **P2 · AI-governance case** | Assess a GenAI credit-memo assistant across RBI / EU / Singapore rules, NIST AI 600-1 and OWASP LLM Top 10; recommend with conditions | ~5 h, week 4 |
+| **P1 · PD-model validation** | Validate a deliberately flawed credit-card PD model on public UCI data: replicate, test, find the 13 planted issues, write a committee-style report | ~13 h, weeks 2–4 |
+| **P2 · AI-governance case** | Assess a GenAI credit-memo assistant across RBI / EU / Singapore rules, NIST AI 600-1 and OWASP LLM Top 10; recommend with conditions | ~3 h compressed memo, week 4 (full ~5 h only for AI-heavy roles) |
 
-**Why these two:** they close your three biggest profile gaps — monitoring → validation, no AI-governance exposure, and
-degree screens. Each project has an answer key (open it only after writing), a self-scoring rubric and an interview kit.
+**Why these two:** P1 closes the biggest profile gap (monitoring → validation) and helps with degree screens; P2 adds an
+AI-governance talking point. Each project has an answer key (open it only after writing), a self-scoring rubric and an
+interview kit. Neither replaces your real work stories, which carry more interview weight than both projects together.
 
 ---
 
@@ -166,7 +179,8 @@ degree screens. Each project has an answer key (open it only after writing), a s
    - EU AI Act high-risk credit scoring (2 Dec 2027);
    - the build-out of AI/ML validation teams.
 4. **Your edge:** breadth across provisioning, capital and stress models, plus a vendor model (SBSS).
-   **Your gaps:** monitoring → validation framing, Python depth, AI governance, possible Master's screens.
+   **Your gaps:** evidence from your own work (numbers, which regime — CECL vs IFRS 9, US AIRB vs EU IRB), monitoring →
+   validation framing, Python depth, possible Master's screens. AI governance is a differentiator, not a blocker.
    → `00_strategy/05_gap_analysis_and_upgrades.md`
 
 ---
@@ -174,16 +188,16 @@ degree screens. Each project has an answer key (open it only after writing), a s
 ## 9. Repo map
 | Folder | Contents |
 |---|---|
-| `00_strategy/` | Market & targets · interview process map · six-week plan · positioning & project sheets · gap analysis |
+| `00_strategy/` | Market & targets · interview process map · six-week plan · positioning & project sheets · gap analysis · prep audit (7 Oct) · evidence bank & résumé |
 | `01_foundations/` | Statistics · logistic regression & scorecards · ML for credit risk |
 | `02_credit_risk/` | Fundamentals · IFRS 9/CECL/RBI ECL · Basel IRB · stress testing · wholesale/commercial models |
 | `03_monitoring_validation/` | Metrics (formulas, worked examples, diagnosis matrix) · independent validation playbook |
 | `04_governance_regulation/` | SR 11-7 → SR 26-2 · global regulations · AI/ML/GenAI model risk · AI governance |
-| `05_coding/` | Python, SQL, SAS guides · tested toolkit and demos in `code/` |
+| `05_coding/` | Python, SQL, SAS guides · PySpark primer · tested toolkit and demos in `code/` |
 | `06_interview_bank/` | Tier-1 Q&A · grilling ladders · 16 cases · behavioural & negotiation · mock scripts · cheat sheet · quant screen |
 | `07_jd_analysis/` | Paste a JD → tailored prep pack |
-| `08_mock_interviews/` | Protocol, topic catalog, personas, templates, coding auto-grader, and **all your interview records** |
-| `09_progress/` | Syllabus, skills matrix, gap log, interview log |
+| `08_mock_interviews/` | Protocol, topic catalog, personas, templates, coding auto-grader, and **all your interview records** (incl. real-interview debriefs in `real/`) |
+| `09_progress/` | Syllabus, skills matrix, gap log, interview log, applications tracker |
 | `10_revision/` | One quick-refresher file per topic |
 | `11_projects/` | Portfolio projects P1 and P2 |
 

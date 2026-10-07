@@ -17,7 +17,7 @@
 | T09 | AI governance & AI regulation | P1 | | | | | 0 | | ⚪ | Diagnostic |
 | T10 | ML model validation | P1 | | | | | 0 | | ⚪ | Diagnostic |
 | T11 | Credit risk fundamentals | P1 | | | | | 0 | | ⚪ | Diagnostic |
-| T12 | Your projects deep-dive | P1 | | | | | 0 | | ⚪ | Fill project sheets first |
+| T12 | Your projects deep-dive | P1 | | | | | 0 | | ⚪ | Evidence bank (`00_strategy/07`) + 2 sheets, then `T12 short` in Week 2 |
 | T13 | Behavioural, HR & negotiation | P1 | | | | | 0 | | ⚪ | Diagnostic |
 | T14 | GenAI/LLM & agentic AI risk | P2 | | | | | 0 | | ⚪ | After T09 |
 | T15 | Wholesale/commercial credit | P2 | | | | | 0 | | ⚪ | If JD needs |
@@ -31,6 +31,7 @@
 | C5 | SAS | P2 | | | | | 0 | | ⚪ | Coding mock |
 | C6 | Code review | P2 | | | | | 0 | | ⚪ | Coding mock |
 | C7 | Time-series diagnostics | P2 | | | | | 0 | | ⚪ | Coding mock |
+| C8 | PySpark basics | P3 | | | | | 0 | | ⚪ | Primer drills if a JD lists PySpark |
 
 ## Portfolio projects (`11_projects/`)
 | Project | Stage (not started · data/run · TODOs · report draft · self-scored · reviewed · published) | Self-score | Review score (`REVIEW PROJECT`) | Last updated | Next action |

@@ -210,7 +210,7 @@ Volume and mix, stage transfers, parameter/model changes, macro/scenario updates
 IFRS 9 requires measuring ECL over the period of exposure for revolving facilities even beyond the contractual (cancellable) term.
 
 **D13. What's new in India's ECL?**
-RBI final directions 27 Apr 2026, effective 1 Apr 2027, for commercial banks (excl. SFBs, payments banks, LABs): three-stage ECL, Stage 2 at 30–90 DPD with a 5% minimum provision, product-wise floors, EIR, board oversight, MRM for ECL models, impact spread over ~4 years.
+RBI final directions 27 Apr 2026, effective 1 Apr 2027, for commercial banks (excl. SFBs, payments banks, LABs): three-stage ECL, Stage 2 at 30–90 DPD with a 5% minimum provision, Stage 1 floor 0.40% for standard corporate/retail, EIR (legacy loans by Mar 2030), board committee incl. CFO/CRO, MRM for ECL models; CET1 hit (up to ~120 bps, CRISIL) added back on a 4-year taper to FY2030-31. *[Likely on floors/taper — verify in the Directions]*
 
 **D14. How did COVID affect ECL models?**
 Government support suppressed defaults despite macro shocks → macro-default links broke → large overlays; re-estimation needs explicit treatment of 2020–21 data.

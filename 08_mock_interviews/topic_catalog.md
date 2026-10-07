@@ -122,3 +122,4 @@ Lineage & reconciliation, BCBS 239 basics, production-vs-development parity, edg
 | C5 | SAS | data step logic, PROC choice, macro for PSI, read-and-debug | Reviewed by interviewer |
 | C6 | Code review | find the bugs in a PSI/KS/WoE implementation | Reviewed |
 | C7 | Time series | ADF/KPSS, HAC OLS, BG test, dynamic back-test | Reviewed |
+| C8 | PySpark basics (`05_coding/04_pyspark_primer.md`) | bad rate by segment, PSI/KS at scale, roll rates, "why is my job slow?" | Reviewed |

@@ -18,6 +18,13 @@ _…_
 | Limitations | |
 | SBA 1 Mar 2026 SBSS change — impact | Use-case review; population shift for SBA flow; possible internal scorecard → new validation; inventory update |
 
+## Regime clarity and depth (from `00_strategy/07_evidence_bank_and_resume.md` §1 C–D)
+| Question | Your answer |
+|---|---|
+| CECL or IFRS 9 — which entity? | |
+| IRB — US advanced approaches or UK/EU subsidiary? Endgame re-proposal impact? | |
+| Depth-5 model you lead with | |
+
 ## IFRS 9 · IRB · Stress testing (one row each)
 | Model | Your role | Key metric + latest number | Breach story | Limitation |
 |---|---|---|---|---|

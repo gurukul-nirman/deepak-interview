@@ -26,7 +26,8 @@ KS example 40, AUC 0.76 / Gini 0.52 · PSI example 0.135 · Binomial (N 1,000, P
 - **PRA SS1/23:** effective **17 May 2024**; 5 principles; SMF; PMAs.
 - **ECB Guide to internal models:** revised **28 Jul 2025** (ML expectations).
 - **OSFI E-23:** final 11 Sep 2025; effective **1 May 2027**; includes AI/ML.
-- **RBI ECL:** final **27 Apr 2026**; effective **1 Apr 2027**; Stage 2 = 30–90 DPD, 5% floor **[Likely — verify floors]**.
+- **RBI ECL:** final **27 Apr 2026**; effective **1 Apr 2027**; Stage 2 = 30–90 DPD, 5% floor; Stage 1 floor 0.40% (std corporate/retail); CET1 add-back taper 4 yrs to FY31; legacy EIR by Mar 2030 **[Likely — verify floors]**.
+- **US Basel III endgame re-proposal (19 Mar 2026):** would **delete the advanced approaches (AIRB)** for Cat I–II banks → ERBA (standardised); comments closed 18 Jun 2026; final pending **[Likely — verify]**.
 - **RBI draft MRM guidance:** **24 Jun 2026**; all REs; AI/ML & third-party models.
 - **EU AI Act:** credit scoring high-risk obligations → **2 Dec 2027**.
 - **Fed stress test (30 Sep 2026):** public comment on scenarios/models; two market shocks; **SCB averaging from 2028**.

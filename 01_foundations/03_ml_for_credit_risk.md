@@ -69,7 +69,7 @@
 - **Concepts:** disparate treatment (using a protected attribute) vs disparate impact (neutral variable with discriminatory effect); **proxies** (ZIP code, some alternative data).
 - **Metrics:** Adverse Impact Ratio (approval-rate ratio; < 0.8 flags review), standardised mean difference of scores, equal opportunity (TPR parity), calibration within groups. When base rates differ, you **can't satisfy all fairness metrics at once** — choose and justify.
 - **Data:** US lenders typically can't collect race for non-mortgage credit → proxy methods (e.g., BISG) for testing. **[Likely]**
-- **Rules:** US ECOA/fair lending · **EU AI Act** — credit scoring of natural persons is *high-risk*; obligations for stand-alone high-risk systems deferred to **2 Dec 2027** (Digital Omnibus, Council approval 29 Jun 2026) · India — RBI Fair Practices Code (non-discrimination) and RBI's FREE-AI framework (Aug 2025), built on by the **draft MRM guidance (24 Jun 2026)** which expects explainability and human oversight for AI-driven decisions. **[Certain on dates; Likely on details]**
+- **Rules:** US ECOA/fair lending · **EU AI Act** — credit scoring of natural persons is *high-risk*; obligations for stand-alone high-risk systems deferred to **2 Dec 2027** (AI Omnibus, Reg. (EU) 2026/1744, in force 27 Jul 2026) · India — RBI Fair Practices Code (non-discrimination) and RBI's FREE-AI framework (Aug 2025), built on by the **draft MRM guidance (24 Jun 2026)** which expects explainability and human oversight for AI-driven decisions. **[Certain on dates; Likely on details]**
 
 ---
 
